@@ -12,9 +12,9 @@ postnominals:
   - "PhD"
 status:
   icon: "🎓"
-role: "Senior CAMI Research Scientist"
+role: "Medical Software Prototyping"
 bio: |
-  Tenured assistant professor at Grenoble University. I specializes in computer science for medicine and Computer Assisted Medical Intervention software prototyping.
+  Tenured assistant professor at Grenoble University, I specializes in computer science for medicine and Computer Assisted Medical Intervention software prototyping.
 affiliations:
   - name: "Grenoble University"
     url: "https://www.univ-grenoble-alpes.fr/"

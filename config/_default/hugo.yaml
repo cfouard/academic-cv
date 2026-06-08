@@ -55,6 +55,7 @@ taxonomies:
   author: authors
   tag: tags
   publication_type: publication_types
+  theme: themes
 markup:
   _merge: deep
   highlight:

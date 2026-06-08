@@ -24,8 +24,6 @@ links:
   url: https://theses.hal.science/tel-00308884/
 
 tags:
-  - chamfer distances
-  - thèse
-  
+  - distances-de-chanfrein  
 ---
 

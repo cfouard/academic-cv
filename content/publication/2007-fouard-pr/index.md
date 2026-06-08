@@ -26,7 +26,7 @@ image:
   focal_point: Smart
 
 tags:
-  - chamfer distances
+  - distances-de-chanfrein
   
 ---
 

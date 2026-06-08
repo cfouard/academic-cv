@@ -4,12 +4,7 @@ summary: "Postdoctorat à l'Université d'Uppsala (2005–2006) : extension des 
 date: 2006-08-01
 lastmod: 2006-08-01
 tags:
-  - "géométrie discrète"
-  - "distances de chamfrein"
-  - "transformées de distance"
-  - "grilles anisotropes"
-  - "images médicales"
-  - "mathématiques"
+  - distances-de-chanfrein
 image:
   filename: featured.png
   caption: "Grilles BCC et FCC — structures non standard pour l'imagerie médicale"

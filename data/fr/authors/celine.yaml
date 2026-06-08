@@ -5,3 +5,6 @@ title: Céline Fouard
 role: "Prototypage d'applications médicales"
 bio.display: |
   Maîtresse de Conférences pendant 20 ans à l'Université Grenoble Alpes, je suis spécialisée das les Gestes Médico-Chirurgicaux assistés par ordinateur (GMCAO)
+affiliations:
+  - name: "Université Grenoble Alpes"
+    url: "https://www.univ-grenoble-alpes.fr/"

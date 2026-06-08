@@ -19,8 +19,7 @@ abstract: A sequential algorithm for computing the distance map using distances 
 publication: '*Discrete Geometry for Computer Imagery*'
 
 tags:
-- Discrete Geometry
-- chamfer distances
+  - distances-de-chanfrein
 
 doi: 10.1007/11907350_25
 

@@ -19,8 +19,7 @@ abstract: 'In this paper, we compare two different definitions of distance trans
 publication: '*Proceedings of DGCI 2006*'
 
 tags:
-- Discrete Geometry
-- chamfer distances
+  - distances-de-chanfrein
 
 doi: 10.1007/11907350_22
 

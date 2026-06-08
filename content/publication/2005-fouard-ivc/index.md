@@ -16,9 +16,7 @@ abstract: 'Chamfer distances are widely used in image analysis and many authors 
 publication: '*Image and Vision Computing*'
 
 tags:
-- Discrete Geometry
-- chamfer distances
-- thèse
+  - distances-de-chanfrein
 
 # Featured image
 image:

@@ -4,12 +4,7 @@ summary: "Postdoctoral research at Uppsala University (2005–2006): extending c
 date: 2006-08-01
 lastmod: 2006-08-01
 tags:
-  - "discrete geometry"
-  - "chamfer distances"
-  - "distance transforms"
-  - "anisotropic grids"
-  - "medical imaging"
-  - "mathematics"
+  - distances-de-chanfrein
 image:
   filename: featured.png
   caption: "BCC and FCC grids — non-standard lattices for medical imaging"
