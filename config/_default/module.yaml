@@ -27,3 +27,17 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  # Contenu principal par langue
+  - source: content/en
+    target: content
+    lang: en
+  - source: content/fr
+    target: content
+    lang: fr
+  # Publications partagées entre les deux langues
+  - source: content/publication
+    target: content/publication
+    lang: en
+  - source: content/publication
+    target: content/publication
+    lang: fr

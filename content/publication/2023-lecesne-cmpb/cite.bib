@@ -1,0 +1,13 @@
+@article{LECESNE2023107841,
+title = {Segmentation of cardiac infarction in delayed-enhancement MRI using probability map and transformers-based neural networks},
+journal = {Computer Methods and Programs in Biomedicine},
+volume = {242},
+pages = {107841},
+year = {2023},
+issn = {0169-2607},
+doi = {https://doi.org/10.1016/j.cmpb.2023.107841},
+url = {https://www.sciencedirect.com/science/article/pii/S0169260723005072},
+author = {Erwan Lecesne and Antoine Simon and Mireille Garreau and Gilles Barone-Rochette and Céline Fouard},
+keywords = {Late gadolinium magnetic resonance imaging, Left ventricle scar, Segmentation, Transformers network, U-Net},
+abstract = {Background and Objective: Automatic segmentation of myocardial infarction is of great clinical interest for the quantitative evaluation of myocardial infarction (MI). Late Gadolinium Enhancement cardiac MRI (LGE-MRI) is commonly used in clinical practice to quantify MI, which is crucial for clinical diagnosis and treatment of cardiac diseases. However, the segmentation of infarcted tissue in LGE-MRI is highly challenging due to its high anisotropy and inhomogeneities. Methods: The innovative aspect of our work lies in the utilization of a probability map of the healthy myocardium to guide the localization of infarction, as well as the combination of 2D U-Net and U-Net transformers to achieve the final segmentation. Instead of employing a binary segmentation map, we propose using a probability map of the normal myocardium, obtained through a dedicated 2D U-Net. To leverage spatial information, we employ a U-Net transformers network where we incorporate the probability map into the original image as an additional input. Then, To address the limitations of U-Net in segmenting accurately the contours, we introduce an adapted loss function. Results: Our method has been evaluated on the 2020 MICCAI EMIDEC challenge dataset, yielding competitive results. Specifically, we achieved a Dice score of 92.94% for the myocardium and 92.36% for the infarction. These outcomes highlight the competitiveness of our approach. Conclusion: In the case of the infarction class, our proposed method outperforms state-of-the-art techniques across all metrics evaluated in the challenge, establishing its superior performance in infarction segmentation. This study further reinforces the importance of integrating a contour loss into the segmentation process.}
+}

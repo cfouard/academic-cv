@@ -1,0 +1,98 @@
+translationKey: celine
+slug: "celine"
+is_owner: true
+name:
+  display: "Céline Fouard, PhD"
+  given: "Céline"
+  family: "Fouard"
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
+postnominals:
+  - "PhD"
+status:
+  icon: "🎓"
+role: "Senior CAMI Research Scientist"
+bio: |
+  Tenured assistant professor at Grenoble University. I specializes in computer science for medicine and Computer Assisted Medical Intervention software prototyping.
+affiliations:
+  - name: "Grenoble University"
+    url: "https://www.univ-grenoble-alpes.fr/"
+links:
+  - icon: "at-symbol"
+    url: "mailto:Celine.Fouard@univ-grenoble-alpes.fr"
+    label: "E-mail Me"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/fouard-c%C3%A9line-1560392/"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=hq5o92AAAAAJ&hl=fr"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0002-3500-9916"
+
+interests:
+  - "CAMI Application prototyping"
+  - "Medical Image processing"
+  - "Machine learning for data analysis"
+
+# education:
+#   - degree: "Qualification to Supervise Research (HdR)"
+#     institution: "Grenoble University"
+#     start: ""
+#     end: "10/09/2018"
+#     summary: "French degree required to apply for Professor
+
+#       Title: Medical imaging applied to CAMI"
+#   - degree: "PhD"
+#     institution: "Nice University"
+#     start: "01/09/2001"
+#     end: "31/08/204"
+#     summary: "Title: extraction of morphometric parameters for the study of cerebral microcirculation"
+#     button:
+#       text: "view (French)"
+#       url: "https://hal.science/tel-00308884v1"
+#       icon: ""
+#   - degree: "Engineering degree"
+#     institution: "ENSEIRB (https://enseirb-matmeca.bordeaux-inp.fr/fr)"
+#     start: ""
+#     end: "31/08/2001"
+#     summary: "Computer science and image processing"
+#   - degree: "Master degree"
+#     institution: "Bordeaux University"
+#     start: ""
+#     end: "31/08/2001"
+#     summary: ""
+# experience:
+#   - role: "Post-Doctoral Position"
+#     org: "Centre for Image Analysis Uppsala Sweden (https://www.uu.se/centrum/bildanalys)"
+#     start: "01/09/2005"
+#     end: "15/07/2006"
+#     summary: "Discrete geometry, fuzzy geometry, chamfer distances"
+#   - role: "Tenured Assistant Professor"
+#     org: "Grenoble University"
+#     start: "01/09/2006"
+#     end: ""
+#     summary: "Computer Assisted Medical Interventions (CAMI)"
+# skills:
+#   - name: "Technical Skills"
+#     items:
+#       - label: "CAMI Applications"
+#         level: 5
+#       - label: "Teaching / Science communication"
+#         level: 5
+#       - label: "Programming"
+#         level: 4
+#   - name: "Research & Communication"
+#     items:
+#       - label: "Academic Writing"
+#         level: 5
+#       - label: "Conference Presentations"
+#         level: 5
+# languages:
+#   - name: "French"
+#     level: 5
+#     label: "Native"
+#   - name: "English"
+#     level: 4
+#     label: "Fluent"
+ids:
+  orcid: "0000-0002-3500-9916"

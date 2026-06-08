@@ -1,0 +1,258 @@
+# Navigation
+- id: toggle_navigation
+  translation: "Basculer la navigation"
+
+- id: table_of_contents
+  translation: "Table des matières"
+
+- id: on_this_page
+  translation: "Sur cette page"
+
+- id: back_to_top
+  translation: "Retour en haut"
+
+- id: home
+  translation: "Accueil"
+
+- id: close
+  translation: "Fermer"
+
+- id: languages
+  translation: "Langues"
+
+# Général
+- id: related
+  translation: "Articles connexes"
+
+- id: minute_read
+  translation: "min de lecture"
+
+- id: previous
+  translation: "Précédent"
+
+- id: next
+  translation: "Suivant"
+
+- id: figure
+  translation: "Figure %d :"
+
+- id: edit_page
+  translation: "Modifier cette page"
+
+# Thèmes
+- id: theme_selector
+  translation: "Thème"
+
+- id: theme_light
+  translation: "Clair"
+
+- id: theme_dark
+  translation: "Sombre"
+
+- id: theme_auto
+  translation: "Automatique"
+
+# Boutons
+- id: btn_preprint
+  translation: "Prépublication"
+
+- id: btn_pdf
+  translation: "PDF"
+
+- id: btn_cite
+  translation: "Citer"
+
+- id: btn_slides
+  translation: "Diapositives"
+
+- id: btn_video
+  translation: "Vidéo"
+
+- id: btn_code
+  translation: "Code"
+
+- id: btn_dataset
+  translation: "Jeu de données"
+
+- id: btn_project
+  translation: "Projet"
+
+- id: btn_poster
+  translation: "Poster"
+
+- id: btn_source
+  translation: "Source"
+
+- id: btn_copy
+  translation: "Copier"
+
+- id: btn_copied
+  translation: "Copié !"
+
+- id: btn_download
+  translation: "Télécharger"
+
+# Widget "À propos"
+- id: interests
+  translation: "Centres d'intérêt"
+
+- id: education
+  translation: "Formation"
+
+- id: about_me
+  translation: "À propos de moi"
+
+- id: user_profile_latest
+  translation: "Dernières activités"
+
+# Widget "Réalisations"
+- id: see_certificate
+  translation: "Voir le certificat"
+
+# Widget "Expérience"
+- id: experience
+  translation: "Expérience"
+
+- id: present
+  translation: "Actuel(le)"
+
+# Widget "Pages"
+- id: more_pages
+  translation: "Voir toutes les pages"
+
+- id: more_posts
+  translation: "Plus d'articles"
+
+- id: more_talks
+  translation: "Plus de présentations"
+
+- id: more_publications
+  translation: "Plus de publications"
+
+# Widget "Contact"
+- id: contact_name
+  translation: "Nom"
+
+- id: contact_email
+  translation: "Email"
+
+- id: contact_message
+  translation: "Message"
+
+- id: contact_attachment
+  translation: "Joindre un fichier"
+
+- id: contact_send
+  translation: "Envoyer"
+
+- id: book_appointment
+  translation: "Prendre rendez-vous"
+
+# Détails des publications/événements
+- id: abstract
+  translation: "Résumé"
+
+- id: publication
+  translation: "Publication"
+
+- id: publication_type
+  translation: "Type"
+
+- id: date
+  translation: "Date"
+
+- id: last_updated
+  translation: "Dernière mise à jour"
+
+- id: event
+  translation: "Événement"
+
+- id: location
+  translation: "Lieu"
+
+- id: pub_paper_conference
+  translation: "Article de conférence"
+
+- id: pub_article_journal
+  translation: "Article de revue"
+
+- id: pub_article
+  translation: "Prépublication"
+
+- id: pub_report
+  translation: "Rapport"
+
+- id: pub_book
+  translation: "Livre"
+
+- id: pub_chapter
+  translation: "Chapitre"
+
+- id: pub_thesis
+  translation: "Thèse"
+
+- id: pub_patent
+  translation: "Brevet"
+
+# Détails des projets
+- id: open_project_site
+  translation: "Visiter le site du projet"
+
+# Types de contenu pour les archives
+- id: blog
+  translation: "Blog"
+
+- id: publications
+  translation: "Publications"
+
+- id: events
+  translation: "Événements"
+
+- id: projects
+  translation: "Projets"
+
+- id: slides
+  translation: "Slides"
+
+- id: authors
+  translation: "Auteurs"
+
+# Recherche
+- id: search
+  translation: "Rechercher"
+
+- id: search_placeholder
+  translation: "Rechercher..."
+
+- id: search_results
+  translation: "Résultats de recherche"
+
+- id: search_no_results
+  translation: "Aucun résultat"
+
+- id: search_common_queries
+  translation: "Recherches populaires"
+
+# Erreur 404
+- id: page_not_found
+  translation: "Page introuvable"
+
+- id: 404_recommendations
+  translation: "Essayez ces pages :"
+
+# Consentement aux cookies
+- id: cookie_message
+  translation: "Ce site utilise des cookies pour améliorer votre expérience."
+
+- id: cookie_dismiss
+  translation: "Accepter"
+
+- id: cookie_learn
+  translation: "En savoir plus"
+
+# Pied de page
+- id: published_with
+  translation: "Créé avec {hugoblox} — le générateur de site web {repo_link}libre{/repo_link} pour les chercheurs et créateurs."
+
+- id: poweredby_button
+  translation: "Créer votre site →"

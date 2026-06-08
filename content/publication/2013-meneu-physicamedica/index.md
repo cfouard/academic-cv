@@ -1,0 +1,35 @@
+---
+title: Consideration of seeds orientation in prostate brachytherapy and dosimetric analysis
+
+date: '2013-06-01'
+
+# Autheurs 
+authors:
+- Meneu François
+- Nguyen Huu-Giao
+- Chartier Pascal
+- Troccaz Jocelyne
+- Fouard Céline
+- Giraud Jean-Yves
+  
+# # Publication type
+# Options: article-journal, paper-conference, thesis, book, chapter, report, patent, manuscript
+publication_types: ["article-journal"]
+
+abstract: "Introduction
+Concerning prostate brachytherapy there is no software which takes into account the true seed orientation in postoperative dose calculation. Commonly it is considered that seeds are oriented along the CT axis. However a difference up to 20% has been highlighted by some studies when orientations form part of the calculation. Methodology has been developed within DOrGIPro project to determine the spatial layout of radioactive sources and the dose matrix which results of.
+Material and Method
+Dosimetric analysis of patients is achieved from a post-implant CT scan, a month after surgery, performed on a GE LightSpeed RT16 with the following parameters: 120 kVp, slice thickness of 0.625 mm and a reconstruction matrix of 512 × 512. A specific image processing method has been developed for accurate sees localization. Thanks to the open-source framework CamiTK developed by TIMC laboratory we have implemented codes calculating seeds orientation and dosimetric data. Dose calculation is based on the recommendations of the AAPM TG43. Dosimetric analysis relies on dose-volume histograms and on the dose distribution to prostate and organs at risks (rectum, urethra).
+Results
+The module for seed localization has been validated on phantoms and tested on patient's data. It gives accurate orientations and separates automatically adjoined seeds. Modules have been coded to display isodoses and dose-volume histograms. They allow making true and accurate comparisons.
+Conclusion
+Determining source direction is now available and it allows to work as close as possible to the patient situation. We will continue by determining the dosimetric impact of seeds orientation and by evaluating the clinical significance of the observed differences in dose. If it would be confirmed clinical practice could evolve post implant prostate dosimetry."
+
+publication: '*Physica Medica Vol 29*'
+
+doi: 10.1016/j.ejmp.2013.08.106
+
+tags:
+  - Curietherapy
+---
+
