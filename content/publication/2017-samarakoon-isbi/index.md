@@ -16,7 +16,7 @@ publication: '*2017 IEEE 14th International Symposium on Biomedical Imaging (ISB
 doi: 10.1109/ISBI.2017.7950540
 
 tags: 
-  - lpr
-  - ml
+  - prasad
+  - machine-learning
 ---
 

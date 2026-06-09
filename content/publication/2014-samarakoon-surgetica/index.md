@@ -18,5 +18,9 @@ improvement on the localization with respect to the bounding
 wall prediction error compared to the state of the art results."
 
 publication: '*Proceedings of Surgetica 2014*'
+
+tags: 
+  - prasad
+  - machine-learning
 ---
 
