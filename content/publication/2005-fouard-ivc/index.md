@@ -17,6 +17,7 @@ publication: '*Image and Vision Computing*'
 
 tags:
   - distances-de-chanfrein
+  - these
 
 # Featured image
 image:

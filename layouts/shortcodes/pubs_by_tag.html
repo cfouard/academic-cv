@@ -1,0 +1,25 @@
+{{/*
+  pubs_by_tag — Liste automatiquement les publications portant un tag donné.
+
+  À placer dans :  layouts/shortcodes/pubs_by_tag.html
+  Usage dans une page :  {{< pubs_by_tag tag="these" >}}
+
+  Lit directement le front matter de chaque publication (titre, auteurs,
+  revue, date) — aucune saisie manuelle, la liste se met à jour seule.
+*/}}
+{{ $tag := .Get "tag" }}
+{{ $pubs := where (where site.RegularPages "Section" "publication") "Params.tags" "intersect" (slice $tag) }}
+{{ $pubs = sort $pubs "Date" "desc" }}
+{{ with $pubs }}
+<ul class="pubs-by-tag">
+  {{ range . }}
+  <li>
+    <strong>{{ .Date.Format "2006" }}</strong>.
+    {{ with .Params.authors }}{{ delimit . ", " }} — {{ end }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.publication }}. {{ . | markdownify }}{{ end }}
+  </li>
+  {{ end }}
+</ul>
+{{ else }}
+<p><em>Aucune publication trouvée pour le tag « {{ $tag }} ».</em></p>
+{{ end }}

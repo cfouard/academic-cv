@@ -18,9 +18,8 @@ abstract: ''
 publication: '*4th International Workshop on Functional-Structural Plant Models*'
 
 tags:
-- plant roots
-- Microvascular network study
-- thèse
+- lignes-centrales
+- these
 
 # Featured image
 image:

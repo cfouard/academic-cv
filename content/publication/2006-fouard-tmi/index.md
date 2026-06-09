@@ -19,9 +19,9 @@ abstract: The study of cerebral microvascular networks requires high-resolution 
 publication: "*IEEE Transactions on Medical Imaging ( Volume: 25, Issue: 10, October 2006) *"
 
 tags:
-- Discrete Geometry
-- chamfer distances
-- thèse
+  - distances-de-chanfrein  
+  - lignes-centrales
+  - these
 
 # Featured image
 image:

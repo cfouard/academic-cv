@@ -25,9 +25,9 @@ Conclusions: Among the many parameters that can be analyzed by this method, the 
 publication: "*Microcirculation*"
 
 tags:
-- Discrete Geometry
-- chamfer distances
-- thèse
+  - distances-de-chanfrein  
+  - lignes-centrales
+  - these
 
 # Featured image
 image:

@@ -17,6 +17,7 @@ publication: '*Discrete Geometry for Computer Imagery, 11th International Confer
 
 tags:
   - distances-de-chanfrein
+  - these
 
 doi: 10.1007/b94107
 
