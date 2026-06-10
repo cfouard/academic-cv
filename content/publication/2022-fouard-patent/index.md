@@ -27,6 +27,6 @@ url_source: https://patents.google.com/patent/US20220102899A1/en
 draft: false
 
 tags:
-  - LPR
+  - lpr
 ---
 
