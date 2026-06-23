@@ -39,7 +39,7 @@ image:
   focal_point: Smart
   
 tags:
-  - CamiTK
+  - camitk
 
 ---
 
