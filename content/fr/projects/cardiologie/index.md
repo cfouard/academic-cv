@@ -4,6 +4,10 @@ subtitle: "Du besoin clinique au prototype : guider le geste au cœur du bloc"
 summary: "Guider le geste en cardiologie interventionnelle, depuis l'imagerie préopératoire jusqu'à la salle d'intervention. Un projet où une contrainte de données a été transformée en une innovation clinique mieux ciblée — de la thérapie cellulaire à la cartographie pour la biopsie endomyocardique."
 tags:
   - cardiologie
+  - "pilotage-projets"
+  - "analyse-images-medicales"
+  - "ia-sante"
+  - "navigation-robotique"
 image:
   filename: featured.png
   caption: "Guidage par l'image en cardiologie interventionnelle"

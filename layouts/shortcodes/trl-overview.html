@@ -1,0 +1,10 @@
+{{- /* Affiche la vue d'ensemble des projets par TRL, en choisissant le SVG de la langue courante. */ -}}
+{{- $lang := cond (eq site.Language.Lang "en") "en" "fr" -}}
+{{- $svg := resources.Get (printf "media/projets-trl-%s.svg" $lang) -}}
+{{- with $svg -}}
+<div class="trl-overview" style="width: min(1000px, 94vw); margin: 1.5rem 0 2.5rem; margin-left: 50%; transform: translateX(-50%);">
+{{ .Content | safeHTML }}
+</div>
+{{- else -}}
+<!-- SVG media/projets-trl-{{ $lang }}.svg introuvable dans assets/media/ -->
+{{- end -}}

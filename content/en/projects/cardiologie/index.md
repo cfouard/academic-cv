@@ -4,6 +4,10 @@ subtitle: "From clinical need to prototype: guiding the gesture at the heart of 
 summary: "Guiding the gesture in interventional cardiology, from preoperative imaging to the intervention room. A project where a data constraint was turned into a better-targeted clinical innovation — from cell therapy to mapping for endomyocardial biopsy."
 tags:
   - cardiologie
+  - "pilotage-projets"
+  - "analyse-images-medicales"
+  - "ia-sante"
+  - "navigation-robotique"
 image:
   filename: featured.png
   caption: "Image-guided interventional cardiology"

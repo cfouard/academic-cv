@@ -10,6 +10,7 @@ tags:
   - "squelettisation"
   - "traitement-images-3d"
   - "geometrie-discrete"
+  - "analyse-images-medicales"
 image:
   filename: featured.png
   caption: "Lignes centrales du réseau micro-vasculaire cérébral reconstruit en 3D"

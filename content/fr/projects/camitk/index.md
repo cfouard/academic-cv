@@ -6,10 +6,7 @@ date: 2011-11-01
 lastmod: 2026-06-19
 tags:
   - camitk
-  - prototypage
-  - genie-logiciel
-  - open-source
-  - interdisciplinarite
+  - "pilotage-projets"
 image:
   filename: featured.png
   caption: "CamiTK — Computer Assisted Medical Intervention ToolKit"

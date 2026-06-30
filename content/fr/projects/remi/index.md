@@ -5,10 +5,8 @@ date: 2021-09-01
 lastmod: 2026-06-10
 tags:
   - remi
-  - raisonnement-par-cas
-  - aide-a-la-decision
-  - chirurgie-vasculaire
-  - apprentissage-automatique
+  - "pilotage-projets"
+  - "ia-sante"
 image:
   filename: featured.png
   caption: "Le cycle du Raisonnement à Partir de Cas (RAPC) appliqué à la décision chirurgicale (fig. 2.5, thèse M. Roux)"

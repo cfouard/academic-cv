@@ -8,6 +8,8 @@ tags:
   - "ia-sante"
   - "machine-learning"
   - "regression-forest"
+  - "pilotage-projets"
+  - "analyse-images-medicales"
 
 image:
   filename: featured.png

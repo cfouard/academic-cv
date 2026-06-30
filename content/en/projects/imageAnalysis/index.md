@@ -10,6 +10,7 @@ tags:
   - "laparoscopy"
   - "segmentation"
   - "CamiTK"
+  - "analyse-images-medicales"
 image:
   filename: featured.webp
   caption: "Transperineal ultrasound-guided implantation — prostate brachytherapy"

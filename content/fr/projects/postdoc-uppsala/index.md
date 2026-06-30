@@ -5,6 +5,8 @@ date: 2006-08-01
 lastmod: 2006-08-01
 tags:
   - distances-de-chanfrein
+  - "analyse-images-medicales"
+  - "geometrie-discrete"
 image:
   filename: featured.png
   caption: "Grilles BCC et FCC — structures non standard pour l'imagerie médicale"

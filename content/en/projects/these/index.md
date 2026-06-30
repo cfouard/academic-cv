@@ -5,13 +5,10 @@ summary: "Measuring the brain in 3D, from microscopy to software tools. My CIFRE
 date: 2005-01-21
 lastmod: 2005-01-21
 tags:
-  - "chamfer-distances"
-  - "centerlines"
-  - "skeletonization"
-  - "3d-image-processing"
-  - "discrete-geometry"
   - "distances-de-chanfrein"
   - "lignes-centrales"
+  - "geometrie-discrete"
+  - "analyse-images-medicales"
 
 image:
   filename: featured.png

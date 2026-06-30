@@ -5,6 +5,7 @@ date: 2006-08-01
 lastmod: 2006-08-01
 tags:
   - distances-de-chanfrein
+  - "geometrie-discrete"
 image:
   filename: featured.png
   caption: "BCC and FCC grids — non-standard lattices for medical imaging"

@@ -17,6 +17,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: celine
       text: 'I am an assistant professor at Grenoble University. I specializes in computer science for medicine and Computer Assisted Medical Intervention software prototyping.'
+      
       # # Show a call-to-action button under your biography? (optional)
       # button:
       #   text: Download CV
@@ -35,12 +36,12 @@ sections:
       avatar:
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: rounded # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        My research focuses on medical image analysis and, more broadly, on health informatics within the GMCAO (Computer-Assisted Medical and Surgical Procedures) team at the TIMC laboratory, in close collaboration with clinicians at the Grenoble Alpes University Hospital. Since my research project is applied in nature, I have not only been involved in producing scientific publications and managing local and national projects, but I have also climbed all the ranks of the ... 
+  # - block: markdown
+  #   content:
+  #     title: '📚 My Research'
+  #     subtitle: ''
+  #     text: |-
+  #       My research focuses on medical image analysis and, more broadly, on health informatics within the GMCAO (Computer-Assisted Medical and Surgical Procedures) team at the TIMC laboratory, in close collaboration with clinicians at the Grenoble Alpes University Hospital. Since my research project is applied in nature, I have not only been involved in producing scientific publications and managing local and national projects, but I have also climbed all the ranks of the ... 
 
   #       I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
 

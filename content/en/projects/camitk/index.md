@@ -10,6 +10,7 @@ tags:
   - genie-logiciel
   - open-source
   - interdisciplinarite
+  - "pilotage-projets"
 image:
   filename: featured.png
   caption: "CamiTK — Computer Assisted Medical Intervention ToolKit"

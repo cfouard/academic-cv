@@ -9,6 +9,8 @@ tags:
   - aide-a-la-decision
   - chirurgie-vasculaire
   - apprentissage-automatique
+  - "pilotage-projets"
+  - "ia-sante"
 image:
   filename: featured.png
   caption: "The Case-Based Reasoning (CBR) cycle applied to surgical decision-making (fig. 2.5, M. Roux thesis)"

@@ -15,13 +15,13 @@ sections:
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: celine
-      text: Enseignante-Chercheuse dans le domaine des Gestes Médico-Chirurgicaux Assistés par Ordinateur (GMCAO), spécialisée dans le prototypage d'application médicales
+      text: 20 ans à transformer des idées de recherche en prototypes cliniques. Aujourd'hui, je mets cette expertise au service des entreprises du dispositif médical.
       # Show a call-to-action button under your biography? (optional)
       # button:
       #   text: Téléchager mon CV
       #   url: uploads/resume.pdf
       headings:
-        about: ''
+        about: 'Mon parcours'
         education: ''
         interests: ''
     design:
@@ -41,73 +41,15 @@ sections:
 
   - block: markdown
     content:
-      title: '📚 Recherche / Publications'
+      title: '🎯 Domaines de compétence'
       subtitle: ''
       text: |-
-        Mes travaux scientifiques portent sur l'analyse d'images médicales et plus généralement sur l'informatique pour la santé dans l'équipe GMCAO (Gestes Médico-Chirurgicaux Assistés par Ordinateur) du laboratoire TIMC, en étroite collaboration avec les cliniciens du CHU de Grenoble Alpes. Mon projet de recherche étant appliqué, je me suis investie non seulement dans la production de publications scientifiques et la gestion de projets locaux et nationaux, j'ai également gravi tous les échelons de la maturation scientifique et l'incubation d'entreprise pour la valorisation industrielle du projet LPR (Light Puncture Robot) en passant 2 fois le concours de la BPI pour la création d'entreprise.
+        Cinq domaines de compétence, nourris par des projets menés de l'idée à l'évaluation clinique. Cliquez sur un thème pour explorer les réalisations associées.
 
+        {{< theme-wheel >}}
     design:
       columns: '1'
-    
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publications
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-  #     columns: 2
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ''
-  #     filters:
-  #       folders:
-  #         - publications
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - events
-  #   design:
-  #     view: card
-  # - block: collection
-  #   id: news
-  #   content:
-  #     title: Recent News
-  #     subtitle: ''
-  #     text: ''
-  #     # Page type to display. E.g. post, talk, publication...
-  #     page_type: blog
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 10
-  #     # Filter on criteria
-  #     filters:
-  #       author: ''
-  #       category: ''
-  #       tag: ''
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ''
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: card
-  #     # Reduce spacing
-  #     spacing:
-  #       padding: [0, 0, 0, 0]
+
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:

@@ -9,7 +9,7 @@ tags:
   - "curiethérapie"
   - "laparoscopie"
   - "segmentation"
-  - "CamiTK"
+  - "analyse-images-medicales"
 image:
   filename: featured.webp
   caption: "Implantation transpérinéale guidée par échographie — curiethérapie de la prostate"

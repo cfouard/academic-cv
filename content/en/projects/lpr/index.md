@@ -8,6 +8,8 @@ tags:
   - "robotique-medicale"
   - "radiologie-interventionnelle"
   - "recalage"
+  - "pilotage-projets"
+  - "navigation-robotique"
 
 image:
   filename: featured.png
