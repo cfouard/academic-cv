@@ -31,6 +31,6 @@ image:
 doi: 10.1016/j.cmpb.2023.107841 
  
 tags : 
-  - cardio
+  - cardiologie
 ---
 

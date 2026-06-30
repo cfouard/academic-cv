@@ -20,7 +20,7 @@ image:
 
 Concevoir une application pour le bloc opératoire, ce n'est jamais « juste du code ». C'est faire dialoguer des images médicales, des capteurs, des modèles biomécaniques, parfois un robot, et surtout des spécialistes qui ne parlent pas la même langue technique. **CamiTK** est l'outil que j'ai co-fondé avec Emmanuel Promayon **pour que ce dialogue produise des prototypes** — vite, proprement, et de façon réutilisable. C'est aussi le socle d'expertise sur lequel je m'appuie aujourd'hui pour accompagner des entreprises dans le prototypage d'applications médicales.
 
-{{< figure src="camitk-logo.png" alt="Logo CamiTK" >}}
+<div class="camitk-logo"><style>.camitk-logo{display:flex;justify-content:center;margin:1.75rem 0;}.camitk-logo img{max-width:240px;height:auto;}</style>{{< figure src="camitk-logo.png" alt="Logo CamiTK" >}}</div>
 
 ## Le problème : l'interdisciplinarité coûte cher
 
@@ -32,7 +32,7 @@ Pour une entreprise, c'est exactement le point de douleur : *comment éviter de 
 
 Avec Emmanuel Promayon, nous avons conçu CamiTK comme un **atelier modulaire** : un cœur stable qui prend en charge ce qui est commun à tous les projets — visualisation 3D, interaction, gestion des données et des entrées/sorties, abstraction des formats médicaux (DICOM, maillages…) — et autour duquel chaque spécialiste vient brancher son **extension** métier, sans toucher au reste.
 
-{{< figure src="camitk-architecture.svg" alt="Architecture modulaire de CamiTK : un cœur commun et des extensions par discipline" caption="L'architecture en briques de CamiTK : un cœur commun, une couche d'interfaçage, et une extension par expertise métier." >}}
+<div class="camitk-archi"><style>.camitk-archi{width:100%;margin:1.75rem 0;}.camitk-archi figure{width:100%;margin:0;}.camitk-archi img{width:100%;height:auto;max-width:100%;}</style>{{< figure src="camitk-architecture.svg" alt="Architecture modulaire de CamiTK : un cœur commun et des extensions par discipline" caption="L'architecture en briques de CamiTK : un cœur commun, une couche d'interfaçage, et une extension par expertise métier." >}}</div>
 
 Ce choix d'architecture (un cœur en C++/Qt/VTK, suivant une ingénierie logicielle par composants) apporte ce qu'une entreprise recherche dans un socle technique. Et depuis la version 5, CamiTK accepte aussi des **extensions en Python** : on peut prototyper une idée en quelques lignes, puis la consolider en C++ une fois validée — exactement le bon compromis entre rapidité d'exploration et robustesse de production.
 
@@ -79,4 +79,4 @@ Ce projet m'a aussi donné l'occasion de **coordonner et coencadrer une équipe 
 
 ---
 
-*CamiTK est le fil rouge qui relie tous mes projets, du [robot de ponction LPR](/fr/projects/lpr/) à l'[analyse d'images médicales](/fr/projects/analyse-images-medicales/) : la conviction qu'un bon prototype médical naît d'abord d'une bonne ingénierie, partagée et faite pour durer.*
+*CamiTK est le fil rouge qui relie tous mes projets, du [robot de ponction LPR](/fr/projects/lpr/) à l'[analyse d'images médicales](/fr/projects/imageanalysis/) : la conviction qu'un bon prototype médical naît d'abord d'une bonne ingénierie, partagée et faite pour durer.*

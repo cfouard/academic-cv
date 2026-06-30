@@ -1,0 +1,9 @@
+Liste des projets (en Français et en Anglais)
+- slug: remi, titre: REMI — Aide à la décision pour la revascularisation endovasculaire des membres inférieurs 
+- slug: lpr, titre: LPR : d'une idée de laboratoire au prototype clinique 
+- slug: these-samarakoon, titre: Localiser automatiquement les organes dans le scanner 
+- slug: imageAnalysis, titre: Analyse d'images médicales 
+- slug: camitk, titre: CamiTK : un atelier pour prototyper des applications médicales 
+- slug: postdoc-uppsala, titre: Des fondations mathématiques aux images médicales 
+- slug: these, titre: Extraction de paramètres morphométriques pour l'étude du réseau micro-vasculaire cérébral 
+- slug: cardiologie, titre: Cardiologie interventionnelle 

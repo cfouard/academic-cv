@@ -31,6 +31,6 @@ image:
 doi: 10.1161/CIRCIMAGING.123.015807 
 
 tags:
-  - cardio
+  - cardiologie
 ---
 

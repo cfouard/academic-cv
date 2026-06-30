@@ -3,7 +3,7 @@
    viewBox="264 87 838 373"
    font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
    role="img"
-   aria-label="Architecture modulaire de CamiTK : un cœur C++ central, trois extensions prédéfinies (Action, Viewer, Component) qui s'y branchent à gauche, et votre propre extension (C++ ou Python) à droite, par un système de prises de puzzle mâle/femelle"
+   aria-label="CamiTK modular architecture: a central C++ core, three predefined extensions (Action, Viewer, Component) plugging in on the left, and your own extension (C++ or Python) on the right, through a male/female puzzle-connector system"
    version="1.1"
    id="svg78"
    sodipodi:docname="camitk-architecture.svg"
@@ -36,9 +36,9 @@
   <!-- ============ CŒUR CamiTK (prises femelles à gauche : 150/270/390 ; à droite : 270) ============ -->
   <!-- Texte du cœur -->
   <!-- ============ EXTENSIONS PRÉDÉFINIES (gauche) ============ -->
-  <!-- ROW 1 : Action / Algorithmes (rose) — séparé (détachabilité) -->
-  <!-- ROW 2 : Viewer / Visualisation et interaction (vert) — assemblé -->
-  <!-- ROW 3 : Component / Données et E/S (bleu) — assemblé -->
+  <!-- ROW 1 : Action / Algorithms (rose) — séparé (détachabilité) -->
+  <!-- ROW 2 : Viewer / Visualization et interaction (vert) — assemblé -->
+  <!-- ROW 3 : Component / Data et I/O (bleu) — assemblé -->
   <!-- ============ EXTENSION GÉNÉRIQUE (droite) ============ -->
   <!-- ============ ANNOTATIONS (anatomie, rangée 1) ============ -->
   <g
@@ -72,7 +72,7 @@
        text-anchor="middle"
        font-size="13px"
        fill="#7a6a2e"
-       id="text6">cœur en C++</text>
+       id="text6">C++ core</text>
     <text
        x="610"
        y="270"
@@ -80,28 +80,28 @@
        font-size="16.5px"
        font-weight="700"
        fill="#1b3a5b"
-       id="text8">Plateforme modulaire</text>
+       id="text8">Modular platform</text>
     <text
        x="610"
        y="296"
        text-anchor="middle"
        font-size="13.5px"
        fill="#374151"
-       id="text10">Abstraction des données</text>
+       id="text10">Data abstraction</text>
     <text
        x="610"
        y="320"
        text-anchor="middle"
        font-size="13.5px"
        fill="#374151"
-       id="text12">Interopérabilité</text>
+       id="text12">Interoperability</text>
     <text
        x="610"
        y="344"
        text-anchor="middle"
        font-size="13.5px"
        fill="#374151"
-       id="text14">Comportements par défaut</text>
+       id="text14">Default behaviors</text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -148,7 +148,7 @@
        font-size="14.5px"
        font-weight="700"
        fill="#1b3a5b"
-       id="text58">Votre extension</text>
+       id="text58">Your extension</text>
     <text
        x="967"
        y="269"
@@ -156,7 +156,7 @@
        font-size="12px"
        font-style="italic"
        fill="#6b7280"
-       id="text60">technologie métier</text>
+       id="text60">domain technology</text>
     <rect
        x="907"
        y="282"
@@ -174,7 +174,7 @@
        font-size="13px"
        font-weight="700"
        fill="#1b3a5b"
-       id="text64">C++ ou Python</text>
+       id="text64">C++ or Python</text>
     <ellipse
        cx="327.96872"
        cy="152.73814"
@@ -198,7 +198,7 @@
        text-anchor="middle"
        font-size="13px"
        fill="#374151"
-       id="text24">Algorithmes</text>
+       id="text24">Algorithms</text>
     <ellipse
        cx="330.28189"
        cy="281.22821"
@@ -222,7 +222,7 @@
        text-anchor="middle"
        font-size="13px"
        fill="#374151"
-       id="text36">Visualisation</text>
+       id="text36">Visualization</text>
     <text
        x="329.79385"
        y="279.71149"
@@ -265,7 +265,7 @@
          sodipodi:role="line"
          id="tspan27265"
          x="328.22055"
-         y="385.87564">Données</tspan><tspan
+         y="385.87564">Data</tspan><tspan
          sodipodi:role="line"
          id="tspan27267"
          x="328.22055"
@@ -273,7 +273,7 @@
          sodipodi:role="line"
          x="328.22055"
          y="418.37564"
-         id="tspan27269">E/S</tspan></text>
+         id="tspan27269">I/O</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -287,7 +287,7 @@
        font-size="12.5px"
        font-style="italic"
        fill="#6b7280"
-       id="text66">Librairie</text>
+       id="text66">Library</text>
     <text
        x="902.93042"
        y="120.54794"
@@ -295,7 +295,7 @@
        font-size="12px"
        font-style="italic"
        fill="#6b7280"
-       id="text70">Détachable</text>
+       id="text70">Detachable</text>
     <text
        x="824.0705"
        y="142.12013"
@@ -307,11 +307,11 @@
          sodipodi:role="line"
          id="tspan99656"
          x="824.0705"
-         y="142.12013">Couche</tspan><tspan
+         y="142.12013">Interface</tspan><tspan
          sodipodi:role="line"
          id="tspan99658"
          x="824.0705"
-         y="157.74513">d'interfaçage</tspan></text>
+         y="157.74513">layer</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#151d26;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:6,3,1.5,3;stroke-dashoffset:0;stroke-opacity:0.55000001"
        d="m 820.46819,162.05293 c -2.74644,96.87049 -2.74644,96.87049 -2.74644,96.87049 v 0"
