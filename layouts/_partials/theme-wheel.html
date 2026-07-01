@@ -1,0 +1,125 @@
+{{/*
+  Shortcode: theme-wheel
+  Affiche une roue SVG dont les secteurs sont proportionnels au nombre
+  de projets associés à chaque thème (taxonomie "themes").
+
+  Usage:
+  {{< theme-wheel >}}
+  ## items :
+  - tag: "pilotage-projets"
+    label: "Pilotage de projets & maturation"
+    color: "#534AB7"
+  - tag: "analyse-images-medicales"
+    label: "Analyse d'images médicales"
+    color: "#185FA5"
+  ...
+  {{< /theme-wheel >}}
+
+  La liste des thèmes (tag / label / couleur) est définie ci-dessous en dur
+  car HugoBlox shortcodes n'acceptent pas facilement un bloc YAML complexe
+  en argument. Pour ajouter/retirer un thème, modifier le slice $themeDefs.
+*/}}
+
+{{- $themeDefs := slice
+  (dict "tag" "pilotage-projets"           "label" "Pilotage de projets & maturation" "color" "#534AB7")
+  (dict "tag" "analyse-images-medicales"   "label" "Analyse d'images médicales"       "color" "#185FA5")
+  (dict "tag" "ia-sante"                   "label" "IA pour la santé"                 "color" "#0F6E56")
+  (dict "tag" "navigation-robotique"       "label" "Navigation & robotique"           "color" "#993C1D")
+  (dict "tag" "geometrie-discrete"         "label" "Géométrie discrète"               "color" "#5F5E5A")
+-}}
+
+{{/* Calcul du nombre de pages (projets + publications) taguées pour chaque thème */}}
+{{- $themes := slice -}}
+{{- range $themeDefs -}}
+  {{- $tag := .tag -}}
+  {{- $matched := where site.RegularPages "Params.tags" "intersect" (slice $tag) -}}
+  {{- $count := len $matched -}}
+  {{- $count := cond (eq $count 0) 1 $count -}}
+  {{- $themes = $themes | append (dict "tag" $tag "label" .label "color" .color "count" $count) -}}
+{{- end -}}
+
+{{- $total := 0 -}}
+{{- range $themes -}}{{- $total = add $total .count -}}{{- end -}}
+
+{{- $cx := 160.0 -}}
+{{- $cy := 160.0 -}}
+{{- $R := 138.0 -}}
+{{- $r := 50.0 -}}
+{{- $gap := 0.022 -}}
+{{- $pi := 3.14159265 -}}
+{{- $startCursor := sub 0.0 (div $pi 2.0) -}}
+
+<div class="theme-wheel-wrap" style="display:flex; flex-direction:column; align-items:center; gap:1.5rem; padding:1.5rem 0;">
+
+  <svg width="320" height="320" viewBox="0 0 320 320" role="img" style="max-width:100%; height:auto;">
+    <title>Roue des thèmes de Céline Fouard</title>
+    <desc>Diagramme circulaire où la taille de chaque secteur est proportionnelle au nombre de pages associées au thème.</desc>
+
+    {{- $cursor := $startCursor -}}
+    {{- range $i, $t := $themes -}}
+      {{- $sweep := mul (div (float $t.count) (float $total)) (mul 2.0 $pi) -}}
+      {{- $startAngle := $cursor -}}
+      {{- $endAngle := add $cursor $sweep -}}
+      {{- $midAngle := div (add $startAngle $endAngle) 2.0 -}}
+      {{- $cursor = $endAngle -}}
+
+      {{- $sa := add $startAngle $gap -}}
+      {{- $ea := sub $endAngle $gap -}}
+
+      {{- $ox1 := add $cx (mul (add $r 2.0) (math.Cos $sa)) -}}
+      {{- $oy1 := add $cy (mul (add $r 2.0) (math.Sin $sa)) -}}
+      {{- $ox2 := add $cx (mul (add $r 2.0) (math.Cos $ea)) -}}
+      {{- $oy2 := add $cy (mul (add $r 2.0) (math.Sin $ea)) -}}
+      {{- $ix1 := add $cx (mul $R (math.Cos $sa)) -}}
+      {{- $iy1 := add $cy (mul $R (math.Sin $sa)) -}}
+      {{- $ix2 := add $cx (mul $R (math.Cos $ea)) -}}
+      {{- $iy2 := add $cy (mul $R (math.Sin $ea)) -}}
+
+      {{- $sweepDeg := mul $sweep (div 180.0 $pi) -}}
+      {{- $largeArc := cond (gt $sweepDeg 180.0) 1 0 -}}
+
+      {{- $lR := add (div (add $R (add $r 2.0)) 2.0) 4.0 -}}
+      {{- $lx := add $cx (mul $lR (math.Cos $midAngle)) -}}
+      {{- $ly := add $cy (mul $lR (math.Sin $midAngle)) -}}
+
+      {{- $fontSize := cond (lt $sweepDeg 45.0) 8 10 -}}
+
+      {{- $words := split $t.label " " -}}
+      {{- $half := math.Ceil (div (float (len $words)) 2.0) -}}
+      {{- $line1 := delimit (first (int $half) $words) " " -}}
+      {{- $line2 := delimit (after (int $half) $words) " " -}}
+
+      <a href="{{ "/topic/" | relLangURL }}{{ $t.tag }}/" style="text-decoration:none;">
+        <g>
+          <path d="M {{ $ox1 }} {{ $oy1 }} A {{ add $r 2.0 }} {{ add $r 2.0 }} 0 {{ $largeArc }} 1 {{ $ox2 }} {{ $oy2 }} L {{ $ix2 }} {{ $iy2 }} A {{ $R }} {{ $R }} 0 {{ $largeArc }} 0 {{ $ix1 }} {{ $iy1 }} Z"
+                fill="{{ $t.color }}" opacity="0.88" stroke="var(--color-background-primary, #fff)" stroke-width="2">
+            <title>{{ $t.label }} — {{ $t.count }} page{{ if gt $t.count 1 }}s{{ end }}</title>
+          </path>
+          <text x="{{ $lx }}" y="{{ sub $ly (mul (float $fontSize) 0.55) }}" text-anchor="middle" dominant-baseline="central"
+                font-size="{{ $fontSize }}" font-weight="500" fill="#ffffff">{{ $line1 }}</text>
+          {{- if and $line2 (gt $sweepDeg 25.0) -}}
+          <text x="{{ $lx }}" y="{{ add $ly (mul (float $fontSize) 0.95) }}" text-anchor="middle" dominant-baseline="central"
+                font-size="{{ $fontSize }}" font-weight="500" fill="rgba(255,255,255,0.85)">{{ $line2 }}</text>
+          {{- end -}}
+        </g>
+      </a>
+    {{- end -}}
+
+    <circle cx="{{ $cx }}" cy="{{ $cy }}" r="{{ $r }}" fill="var(--color-background-primary, #fff)" stroke="var(--color-border-tertiary, #ddd)" stroke-width="0.5"/>
+    <text x="{{ $cx }}" y="{{ sub $cy 6.0 }}" text-anchor="middle" dominant-baseline="central" font-size="11" font-weight="500" fill="var(--color-text-secondary, #666)">Thèmes</text>
+    <text x="{{ $cx }}" y="{{ add $cy 9.0 }}" text-anchor="middle" font-size="9" fill="var(--color-text-tertiary, #999)">{{ T "wheel_click" | default "cliquer" }}</text>
+  </svg>
+
+  <div style="display:flex; flex-direction:column; gap:8px; width:100%; max-width:460px;">
+    {{- range $themes -}}
+    <a href="{{ "/topic/" | relLangURL }}{{ .tag }}/" style="text-decoration:none; color:inherit;">
+      <div style="display:flex; align-items:center; gap:12px; padding:10px 16px; border:0.5px solid var(--color-border-tertiary,#e0e0e0); border-radius:8px; background:var(--color-background-primary,#fff);">
+        <span style="width:12px; height:12px; border-radius:50%; background:{{ .color }}; flex-shrink:0;"></span>
+        <span style="font-size:14px; font-weight:500;">{{ .label }}</span>
+        <span style="font-size:12px; color:var(--color-text-tertiary,#999); margin-left:auto;">{{ .count }} page{{ if gt .count 1 }}s{{ end }}</span>
+      </div>
+    </a>
+    {{- end -}}
+  </div>
+
+</div>

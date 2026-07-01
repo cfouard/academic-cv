@@ -1,10 +1,38 @@
 translationKey: celine
 slug: "celine"
 is_owner: true
-title: Céline Fouard
-role: "Prototypage d'applications médicales"
-bio.display: |
-  Maîtresse de Conférences pendant 20 ans à l'Université Grenoble Alpes, je suis spécialisée das les Gestes Médico-Chirurgicaux assistés par ordinateur (GMCAO)
+name:
+  display: "Céline Fouard, PhD"
+  given: "Céline"
+  family: "Fouard"
+  alternate: ""
+  pronunciation: ""
+  pronouns: ""
+postnominals:
+  - "PhD"
+status:
+  icon: "🎓"
+role: "Conseil en prototypage d'applications GMCAO"
+bio: |
+  Maîtresse de Conférences pendant 20 ans à l'Université Grenoble Alpes, je suis spécialisée dans les Gestes Médico-Chirurgicaux assistés par ordinateur (GMCAO) et le prototypage d'applications médicales.
 affiliations:
   - name: "Université Grenoble Alpes"
     url: "https://www.univ-grenoble-alpes.fr/"
+links:
+  - icon: "at-symbol"
+    url: "mailto:Celine.Fouard@univ-grenoble-alpes.fr"
+    label: "M'écrire"
+  - icon: "brands/linkedin"
+    url: "https://www.linkedin.com/in/fouard-c%C3%A9line-1560392/"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=hq5o92AAAAAJ&hl=fr"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0000-0002-3500-9916"
+
+interests:
+  - "Prototypage d'applications médicales"
+  - "Analyse d'images médicales"
+  - "Machine learning pour l'aide à la décision"
+
+ids:
+  orcid: "0000-0002-3500-9916"
