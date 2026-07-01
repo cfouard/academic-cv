@@ -31,5 +31,6 @@ doi: 10.1016/j.ejmp.2013.08.106
 
 tags:
   - Curietherapy
+  - analyse-images-medicales
 ---
 

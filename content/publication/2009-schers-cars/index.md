@@ -20,5 +20,8 @@ abstract: "Development of a method for non invasive tracking of bones inside ult
 publication: '*Proceedings of 23rd International Congress on Computer-Assisted Radiology and Surgery (CARS 2009)*'
 
 doi: 10.1007/s11548-009-0314-1
+
+tag: 
+    - analyse-images-medicales
 ---
 

@@ -30,5 +30,11 @@ image:
   caption: " "
   focal_point: Smart
 
+tag:
+  - analyse-images-medicales
+  - these
+  - lignes-centrales
+  
+
 ---
 

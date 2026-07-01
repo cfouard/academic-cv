@@ -20,6 +20,8 @@ publication: '*Discrete Geometry for Computer Imagery*'
 
 tags:
   - distances-de-chanfrein
+  - analyse-images-medicales
+  - postdoc-uppsala
 
 doi: 10.1007/11907350_25
 

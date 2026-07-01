@@ -27,5 +27,6 @@ doi: 10.1109/TBME.2015.2409304
 
 tags:
   - Curietherapy
+  - analyse-images-medicales
 ---
 

@@ -39,5 +39,6 @@ doi: 10.1016/j.canrad.2014.07.108
 
 tags:
   - Curietherapy
+  - analyse-images-medicales
 ---
 

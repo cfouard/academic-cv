@@ -21,6 +21,7 @@ publication: '*Proceedings of DGCI 2006*'
 tags:
   - distances-de-chanfrein
   - these
+  - analyse-images-medicales
 
 doi: 10.1007/11907350_22
 

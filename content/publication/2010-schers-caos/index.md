@@ -23,5 +23,6 @@ publication: '*Computer Assisted Orthopaedic Surgery (CAOS 2010)*'
 #     url: https://hal.science/hal-00533821v1
 tags:
   - usrecalage
+  - analyse-images-medicales
 ---
 

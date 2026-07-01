@@ -24,6 +24,7 @@ publication_short: 'EMBC 2024'
 
 tags:
 - remi
+- ia-sante
 
 doi: 10.1109/EMBC53108.2024.10782314 
 

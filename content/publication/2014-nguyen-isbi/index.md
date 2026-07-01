@@ -30,5 +30,6 @@ doi: 10.1109/ISBI.2014.6868120
 
 tags: 
   - Curietherapy
+  - analyse-images-medicales
 ---
 

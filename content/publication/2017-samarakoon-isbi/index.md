@@ -18,5 +18,7 @@ doi: 10.1109/ISBI.2017.7950540
 tags: 
   - prasad
   - machine-learning
+  - ia-sante
+  - analyse-images-medicales
 ---
 

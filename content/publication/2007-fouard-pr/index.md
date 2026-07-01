@@ -27,6 +27,8 @@ image:
 
 tags:
   - distances-de-chanfrein
+  - these
+  - analyse-images-medicales
   
 ---
 

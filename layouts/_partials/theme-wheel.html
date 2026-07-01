@@ -20,22 +20,26 @@
   en argument. Pour ajouter/retirer un thème, modifier le slice $themeDefs.
 */}}
 
+{{- $isFr := eq site.Language.Lang "fr" -}}
+
 {{- $themeDefs := slice
-  (dict "tag" "pilotage-projets"           "label" "Pilotage de projets & maturation" "color" "#534AB7")
-  (dict "tag" "analyse-images-medicales"   "label" "Analyse d'images médicales"       "color" "#185FA5")
-  (dict "tag" "ia-sante"                   "label" "IA pour la santé"                 "color" "#0F6E56")
-  (dict "tag" "navigation-robotique"       "label" "Navigation & robotique"           "color" "#993C1D")
-  (dict "tag" "geometrie-discrete"         "label" "Géométrie discrète"               "color" "#5F5E5A")
+  (dict "tag" "pilotage-projets"         "labelFr" "Pilotage de projets & maturation" "labelEn" "Project management & maturation" "color" "#534AB7")
+  (dict "tag" "analyse-images-medicales" "labelFr" "Analyse d'images médicales"       "labelEn" "Medical image analysis"          "color" "#185FA5")
+  (dict "tag" "ia-sante"                 "labelFr" "IA pour la santé"                 "labelEn" "AI for health"                   "color" "#0F6E56")
+  (dict "tag" "navigation-robotique"     "labelFr" "Navigation & robotique"           "labelEn" "Navigation & robotics"           "color" "#993C1D")
+  (dict "tag" "geometrie-discrete"       "labelFr" "Géométrie discrète"               "labelEn" "Discrete geometry"               "color" "#5F5E5A")
 -}}
 
-{{/* Calcul du nombre de pages (projets + publications) taguées pour chaque thème */}}
+{{/* Calcul du nombre de projets taguées pour chaque thème — uniquement la section "projects" */}}
 {{- $themes := slice -}}
 {{- range $themeDefs -}}
   {{- $tag := .tag -}}
-  {{- $matched := where site.RegularPages "Params.tags" "intersect" (slice $tag) -}}
+  {{- $label := cond $isFr .labelFr .labelEn -}}
+  {{- $allTagged := where site.RegularPages "Params.tags" "intersect" (slice $tag) -}}
+  {{- $matched := where $allTagged "Section" "projects" -}}
   {{- $count := len $matched -}}
   {{- $count := cond (eq $count 0) 1 $count -}}
-  {{- $themes = $themes | append (dict "tag" $tag "label" .label "color" .color "count" $count) -}}
+  {{- $themes = $themes | append (dict "tag" $tag "label" $label "color" .color "count" $count) -}}
 {{- end -}}
 
 {{- $total := 0 -}}

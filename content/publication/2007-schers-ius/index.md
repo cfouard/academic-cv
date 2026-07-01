@@ -21,5 +21,9 @@ publication: '*IEEE International Untrasonic Symposium*'
 
 doi: 10.1109/ULTSYM.2007.634
 
+tag:
+    - analyse-images-medicales
+
+
 ---
 

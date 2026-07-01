@@ -18,6 +18,7 @@ publication: '*Image and Vision Computing*'
 tags:
   - distances-de-chanfrein
   - these
+  - analyse-images-medicales
 
 # Featured image
 image:

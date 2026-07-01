@@ -33,6 +33,7 @@ doi: 10.1016/j.avsg.2023.07.017
 
 tags:
   - remi
+  - ia-sante
 
 ---
 

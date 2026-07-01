@@ -36,5 +36,6 @@ doi: 10.1016/j.ijmedinf.2025.105931
 
 tags:
   - remi
+  - ia-sante
 ---
 

@@ -26,5 +26,6 @@ url_source: http://congres.cran.univ-lorraine.fr/2004/RFIA_2004/PAGES/themes_pap
 tag:
   - lignes-centrales
   - thèse
+  - analyse-images-medicales
 ---
 

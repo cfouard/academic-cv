@@ -20,5 +20,8 @@ publication: '*2nd VPH NoE Workshop on Toolkit Hands-on Training*'
 
 #links: http://www-sop.inria.fr/asclepios/events/VPHimaging11/index.html
 
+tag:
+    - analyse-images-medicales
+
 ---
 

@@ -33,5 +33,7 @@ doi: 10.1161/CIRCIMAGING.123.015807
 tags:
   - cardiologie
   - navigation-robotique
+  - ia-sante
+  - analyse-images-medicales
 ---
 

@@ -22,6 +22,7 @@ tags:
   - distances-de-chanfrein  
   - lignes-centrales
   - these
+  - analyse-images-medicales
 
 # Featured image
 image:

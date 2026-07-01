@@ -18,6 +18,7 @@ publication: '*Discrete Geometry for Computer Imagery, 11th International Confer
 tags:
   - distances-de-chanfrein
   - these
+  - analyse-images-medicales
 
 doi: 10.1007/b94107
 
