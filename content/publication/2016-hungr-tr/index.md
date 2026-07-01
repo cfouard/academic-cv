@@ -31,5 +31,6 @@ doi: 10.1109/TRO.2016.2588884
 
 tags:
   - lpr
+  - navigation-robotique
 ---
 

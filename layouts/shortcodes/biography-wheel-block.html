@@ -1,4 +1,12 @@
 {{- $lang := site.Language.Lang -}}
+<style>
+  /* Élargissement de la page d'accueil — compatible tous navigateurs */
+  .biography-wheel-root {
+    width: min(900px, 90vw);
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+</style>
 {{- $isFr := eq $lang "fr" -}}
 {{- $author := cond $isFr site.Data.fr.authors.celine site.Data.authors.celine -}}
 {{- $avatarPath := "media/authors/celine.jpg" -}}
@@ -8,7 +16,7 @@
 {{- $headingThemes := cond $isFr "Domaines de compétence" "Areas of expertise" -}}
 {{- $clickHint     := cond $isFr "Cliquez sur un thème pour découvrir les projets associés." "Click on a theme to explore the associated projects." -}}
 
-<div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start" style="padding: 2rem 0;">
+<div class="biography-wheel-root grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start" style="padding: 2rem 0;">
 
   <div class="md:col-span-4 flex flex-col items-center text-center space-y-6 md:space-y-8">
     <img src="{{ ($avatarPath | resources.Get).RelPermalink }}" alt="{{ $author.name.display }}"

@@ -28,5 +28,6 @@ draft: false
 
 tags:
   - lpr
+  - navigation-robotique
 ---
 

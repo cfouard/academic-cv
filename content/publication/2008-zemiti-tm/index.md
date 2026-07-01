@@ -28,7 +28,8 @@ image:
   focal_point: Smart
 
 tags:
-  - LPR
+  - lpr
+  - navigation-robotique
   
 ---
 

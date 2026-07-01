@@ -24,5 +24,6 @@ doi: 10.1109/IPTA59101.2023.10320037
 
 tags: 
   - cardiologie
+  - navigation-robotique
 ---
 

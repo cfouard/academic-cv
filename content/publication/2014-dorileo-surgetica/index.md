@@ -22,6 +22,7 @@ publication: '*Proceedings of Surgetica 2014*'
 
 tags: 
   - lpr
+  - navigation-robotique
 
 ---
 
