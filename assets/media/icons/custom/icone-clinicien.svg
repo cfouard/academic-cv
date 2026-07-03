@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-dc-tpl="25" id="icon-clinicien" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="120" height="120" fill="none" stroke="#db813a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" data-om-id="8b28685d:30">
+          <circle data-dc-tpl="26" cx="24" cy="16.5" r="6.5" data-om-id="8b28685d:31"></circle>
+          <path data-dc-tpl="27" d="M11.5 40 C11.5 33 17.1 27.5 24 27.5 C30.9 27.5 36.5 33 36.5 40" data-om-id="8b28685d:32"></path>
+          <circle data-dc-tpl="28" cx="19" cy="24" r="1.1" fill="#db813a" stroke="none" data-om-id="8b28685d:33"></circle>
+          <circle data-dc-tpl="29" cx="29" cy="24" r="1.1" fill="#db813a" stroke="none" data-om-id="8b28685d:34"></circle>
+          <path data-dc-tpl="30" d="M19 24.9 C18.2 28 19.4 31.4 24 32.8" data-om-id="8b28685d:35"></path>
+          <path data-dc-tpl="31" d="M29 24.9 C29.8 28 28.6 31.4 24 32.8" data-om-id="8b28685d:36"></path>
+          <path data-dc-tpl="32" d="M24 32.8 V35.6" data-om-id="8b28685d:37"></path>
+          <circle data-dc-tpl="33" cx="24" cy="38" r="2.3" data-om-id="8b28685d:38"></circle>
+        </svg>

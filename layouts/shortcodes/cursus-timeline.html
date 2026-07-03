@@ -1,0 +1,35 @@
+{{ $lang := .Page.Language.Lang }}
+{{ $author := site.Data.authors.celine }}
+{{ if eq $lang "fr" }}
+  {{ $author = site.Data.fr.authors.celine }}
+{{ end }}
+{{ $items := $author.cursus }}
+<div class="cursus-timeline">
+  {{ range $items }}
+  <div class="cursus-item">
+    <div class="cursus-marker">
+      <span class="cursus-icon">{{ if eq .type "education" }}🎓{{ else }}💼{{ end }}</span>
+    </div>
+    <div class="cursus-content">
+      <div class="cursus-date">{{ .display_date }}{{ if .current }} <span class="cursus-current-badge">●</span>{{ end }}</div>
+      <h3 class="cursus-title">{{ .title }}</h3>
+      <p class="cursus-institution">
+        {{ if .institution_url }}<a href="{{ .institution_url }}" target="_blank" rel="noopener">{{ .institution }}</a>{{ else }}{{ .institution }}{{ end }}
+      </p>
+      {{ with .summary }}<p class="cursus-summary">{{ . | markdownify }}</p>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>
+
+<style>
+.cursus-timeline { position: relative; margin: 2rem 0; padding-left: 2rem; border-left: 2px solid #d1d5db; }
+.cursus-item { position: relative; margin-bottom: 2rem; }
+.cursus-marker { position: absolute; left: -2.65rem; top: 0.15rem; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; background: var(--body-bg, #fff); border: 2px solid #d1d5db; border-radius: 9999px; font-size: 1rem; }
+.cursus-date { font-size: 0.85rem; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: 0.03em; }
+.cursus-current-badge { color: #16a34a; }
+.cursus-title { margin: 0.2rem 0 0.1rem; font-size: 1.1rem; font-weight: 700; }
+.cursus-institution { margin: 0; font-size: 0.95rem; }
+.cursus-institution a { text-decoration: underline; }
+.cursus-summary { margin-top: 0.35rem; font-size: 0.95rem; color: #4b5563; }
+</style>

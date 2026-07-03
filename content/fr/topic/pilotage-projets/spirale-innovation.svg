@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="680"
+   height="560"
+   viewBox="0 0 680 560"
+   role="img"
+   version="1.1"
+   id="svg107"
+   sodipodi:docname="spirale-innovation.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview109"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.0657109"
+     inkscape:cx="345.3094"
+     inkscape:cy="311.9983"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="1920"
+     inkscape:window-y="147"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <title
+     id="title2">Spirale d'innovation GMCAO — du patient à l'industrie via les niveaux TRL</title>
+  <desc
+     id="desc4">Spirale partant du patient au centre, s'enroulant vers l'extérieur en passant par le/la clinicien·ne, le/la chercheur·se et l'industrie, avec les niveaux TRL jalonnant la progression.</desc>
+  <defs
+     id="defs9">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient81385">
+      <stop
+         style="stop-color:#d71313;stop-opacity:1"
+         offset="0"
+         id="stop81389" />
+      <stop
+         style="stop-color:#e0a51d;stop-opacity:0.89999998"
+         offset="0.51751399"
+         id="stop84600" />
+      <stop
+         style="stop-color:#2b872f;stop-opacity:0.80000001"
+         offset="1"
+         id="stop81391" />
+    </linearGradient>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path81078" />
+    </marker>
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M2 1L8 5L2 9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path6" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient81385"
+       id="linearGradient81387"
+       x1="275.38733"
+       y1="322.10611"
+       x2="450.53415"
+       y2="256.43582"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <!-- Quadrants fond -->
+  <rect
+     x="0"
+     y="0"
+     width="340"
+     height="280"
+     fill="#FFF8F5"
+     opacity="0.6"
+     id="rect11" />
+  <rect
+     x="340"
+     y="0"
+     width="340"
+     height="280"
+     fill="#F0F6FF"
+     opacity="0.6"
+     id="rect13" />
+  <rect
+     x="0"
+     y="280"
+     width="340"
+     height="280"
+     fill="#F0F6FF"
+     opacity="0.6"
+     id="rect15" />
+  <rect
+     x="340"
+     y="280"
+     width="340"
+     height="280"
+     fill="#FFF8F5"
+     opacity="0.6"
+     id="rect17" />
+  <!-- Labels quadrants -->
+  <text
+     font-size="12"
+     x="16"
+     y="20"
+     fill="#993C1D"
+     opacity="0.7"
+     id="text19"
+     style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.7;fill:#993c1d"><tspan
+       sodipodi:role="line"
+       id="tspan46016">Démonstration clinique / transfert industriel</tspan></text>
+  <text
+     font-size="12px"
+     x="664"
+     y="20"
+     text-anchor="end"
+     fill="#185fa5"
+     opacity="0.7"
+     id="text21">Perspective du service médical</text>
+  <text
+     font-size="12px"
+     x="16"
+     y="552"
+     fill="#993c1d"
+     opacity="0.7"
+     id="text23"
+     style="-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.7;fill:#993c1d"><tspan
+       sodipodi:role="line"
+       id="tspan44402">Maturation du service médical</tspan></text>
+  <text
+     font-size="12px"
+     x="664"
+     y="552"
+     text-anchor="end"
+     fill="#185fa5"
+     opacity="0.7"
+     id="text25">Estimation du service médical</text>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Spirale">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:url(#linearGradient81387);stroke-width:12.89060429;stroke-miterlimit:3.9000001;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;marker-end:;fill-opacity:0.80000001"
+       id="path80826"
+       sodipodi:cx="320.62756"
+       sodipodi:cy="256.08478"
+       sodipodi:expansion="1"
+       sodipodi:revolution="1.8316331"
+       sodipodi:radius="145.91418"
+       sodipodi:argument="-16.803461"
+       sodipodi:t0="0.46226937"
+       d="m 352.24488,315.66725 c -34.07745,27.20191 -84.10182,15.09331 -108.79218,-18.62978 -32.08452,-43.82233 -16.33754,-105.7983 26.8868,-135.71995 53.50354,-37.03733 127.54045,-17.60726 162.64772,35.14383 39.02434,58.63676 22.15277,138.56751 -32.08032,181.46832"
+       transform="matrix(-2.1252467,-0.59494551,0.82107079,-1.5399476,830.67192,913.39762)" />
+  </g>
+  <!-- SPIRALE — bande large (fond) -->
+  <!-- SPIRALE — trait fin avec flèche -->
+  <!-- PATIENT au centre -->
+  <!-- CLINICIEN·NE — en haut, proche du centre -->
+  <!-- CHERCHEUR·SE — à droite, un peu plus loin -->
+  <!-- INDUSTRIE — plus loin, en bas à gauche -->
+  <!-- TRL4 — validation expérimentale, bas droite -->
+  <!-- TRL7 — produit clinique CE, haut gauche -->
+  <!-- Légende -->
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="TRLs"
+     style="display:inline">
+    <g
+       id="TRL 1"
+       transform="translate(223.97359,46.856469)">
+      <rect
+         x="59.222118"
+         y="147.94765"
+         width="113.14947"
+         height="56.104717"
+         rx="6.7350879"
+         fill="#fff3ed"
+         stroke="#712b13"
+         stroke-width="0.985734"
+         id="rect6740" />
+      <text
+         font-size="14px"
+         font-weight="500"
+         x="114"
+         y="170"
+         text-anchor="middle"
+         fill="#4a1b0c"
+         id="text6742">TRL1</text>
+      <text
+         font-size="12px"
+         x="117.31721"
+         y="187.85149"
+         text-anchor="middle"
+         fill="#712b13"
+         id="text6744"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#712b13"><tspan
+           sodipodi:role="line"
+           id="tspan16440"
+           x="117.31721"
+           y="187.85149">Besoin Clinique</tspan></text>
+      <text
+         font-size="12px"
+         x="114"
+         y="198"
+         text-anchor="middle"
+         fill="#993c1d"
+         id="text6746" />
+    </g>
+    <g
+       id="TRL 2"
+       transform="translate(422.24278,108.53622)">
+      <rect
+         x="59.235233"
+         y="147.96075"
+         width="119.30685"
+         height="56.078487"
+         rx="7.1015987"
+         fill="#fff3ed"
+         stroke="#712b13"
+         stroke-width="1.01196"
+         id="rect13808" />
+      <text
+         font-size="14px"
+         font-weight="500"
+         x="114"
+         y="170"
+         text-anchor="middle"
+         fill="#4a1b0c"
+         id="text13810">TRL2</text>
+      <text
+         font-size="12px"
+         x="118.14384"
+         y="192.47818"
+         text-anchor="middle"
+         fill="#712b13"
+         id="text13814"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#712b13"><tspan
+           sodipodi:role="line"
+           id="tspan16420"
+           x="118.14384"
+           y="192.47818">Preuve de concept</tspan></text>
+      <text
+         font-size="12px"
+         x="114"
+         y="198"
+         text-anchor="middle"
+         fill="#993c1d"
+         id="text13816" />
+    </g>
+    <g
+       id="g16452"
+       transform="translate(387.43075,266.92444)">
+      <rect
+         x="59.235233"
+         y="147.96075"
+         width="119.30685"
+         height="56.078487"
+         rx="7.1015987"
+         fill="#fff3ed"
+         stroke="#712b13"
+         stroke-width="1.01196"
+         id="rect16442" />
+      <text
+         font-size="14px"
+         font-weight="500"
+         x="114"
+         y="170"
+         text-anchor="middle"
+         fill="#4a1b0c"
+         id="text16444">TRL3</text>
+      <text
+         font-size="12px"
+         x="118.14384"
+         y="192.47818"
+         text-anchor="middle"
+         fill="#712b13"
+         id="text16448"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#712b13"><tspan
+           sodipodi:role="line"
+           id="tspan18580"
+           x="118.14384"
+           y="192.47818">Prototype labo</tspan></text>
+      <text
+         font-size="12px"
+         x="114"
+         y="198"
+         text-anchor="middle"
+         fill="#993c1d"
+         id="text16450" />
+    </g>
+    <g
+       id="TRL 4"
+       transform="translate(173.85773,341.16803)">
+      <rect
+         x="59.235233"
+         y="147.96075"
+         width="119.30685"
+         height="56.078487"
+         rx="7.1015987"
+         fill="#fff3ed"
+         stroke="#712b13"
+         stroke-width="1.01196"
+         id="rect21786" />
+      <text
+         font-size="14px"
+         font-weight="500"
+         x="114"
+         y="170"
+         text-anchor="middle"
+         fill="#4a1b0c"
+         id="text21788">TRL4</text>
+      <text
+         font-size="12px"
+         x="118.14384"
+         y="192.47818"
+         text-anchor="middle"
+         fill="#712b13"
+         id="text21792"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#712b13"><tspan
+           sodipodi:role="line"
+           id="tspan22954"
+           x="118.14384"
+           y="192.47818">Prototype validé</tspan></text>
+      <text
+         font-size="12px"
+         x="114"
+         y="198"
+         text-anchor="middle"
+         fill="#993c1d"
+         id="text21794" />
+    </g>
+    <g
+       id="TRL 5"
+       transform="translate(-31.643497,232.2052)">
+      <rect
+         x="59.235233"
+         y="147.96075"
+         width="119.30685"
+         height="56.078487"
+         rx="7.1015987"
+         fill="#fff3ed"
+         stroke="#712b13"
+         stroke-width="1.01196"
+         id="rect30440" />
+      <text
+         font-size="14px"
+         font-weight="500"
+         x="114"
+         y="170"
+         text-anchor="middle"
+         fill="#4a1b0c"
+         id="text30442">TRL5</text>
+      <text
+         font-size="12px"
+         x="118.14384"
+         y="192.47818"
+         text-anchor="middle"
+         fill="#712b13"
+         id="text30446"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#712b13"><tspan
+           sodipodi:role="line"
+           id="tspan33366"
+           x="118.14384"
+           y="192.47818">Essais précliniques</tspan></text>
+      <text
+         font-size="12px"
+         x="114"
+         y="198"
+         text-anchor="middle"
+         fill="#993c1d"
+         id="text30448" />
+    </g>
+    <g
+       id="TRL 6"
+       transform="translate(-47.400183,47.002253)">
+      <rect
+         x="59.235233"
+         y="147.96075"
+         width="119.30685"
+         height="56.078487"
+         rx="7.1015987"
+         fill="#fff3ed"
+         stroke="#712b13"
+         stroke-width="1.01196"
+         id="rect48834" />
+      <text
+         font-size="14px"
+         font-weight="500"
+         x="114"
+         y="170"
+         text-anchor="middle"
+         fill="#4a1b0c"
+         id="text48836"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#4a1b0c"><tspan
+           sodipodi:role="line"
+           id="tspan48864"
+           x="114"
+           y="170">TRL6</tspan></text>
+      <text
+         font-size="12px"
+         x="118.14384"
+         y="192.47818"
+         text-anchor="middle"
+         fill="#712b13"
+         id="text48840"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#712b13"><tspan
+           sodipodi:role="line"
+           id="tspan49744"
+           x="118.14384"
+           y="192.47818">Maturation SATT</tspan></text>
+      <text
+         font-size="12px"
+         x="114"
+         y="198"
+         text-anchor="middle"
+         fill="#993c1d"
+         id="text48842" />
+    </g>
+    <g
+       id="TRL 7"
+       transform="translate(110.41079,-111.15127)">
+      <rect
+         x="59.235233"
+         y="147.96075"
+         width="119.30685"
+         height="56.078487"
+         rx="7.1015987"
+         fill="#fff3ed"
+         stroke="#712b13"
+         stroke-width="1.01196"
+         id="rect51952" />
+      <text
+         font-size="14px"
+         font-weight="500"
+         x="114"
+         y="166"
+         text-anchor="middle"
+         fill="#4a1b0c"
+         id="text51956"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#4a1b0c"><tspan
+           sodipodi:role="line"
+           id="tspan51984"
+           x="114"
+           y="166">TRL7</tspan></text>
+      <text
+         font-size="12px"
+         x="116.80483"
+         y="182.32761"
+         text-anchor="middle"
+         fill="#712b13"
+         id="text51960"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#712b13"><tspan
+           sodipodi:role="line"
+           id="tspan51958"
+           x="116.80483"
+           y="182.32761">Produitclinique</tspan><tspan
+           sodipodi:role="line"
+           x="116.80483"
+           y="197.32761"
+           id="tspan52170">MarquéCE</tspan></text>
+      <text
+         font-size="12px"
+         x="114"
+         y="198"
+         text-anchor="middle"
+         fill="#993c1d"
+         id="text51962" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Perso">
+    <g
+       id="g77927">
+      <text
+         font-size="12px"
+         x="343.91333"
+         y="158.71887"
+         text-anchor="middle"
+         fill="#085041"
+         id="text37"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#a92a14;fill-opacity:1">Patient·e</text>
+      <g
+         id="patient"
+         transform="matrix(2.5,0,0,2.5,283.25237,41.834656)">
+        <circle
+           data-dc-tpl="14"
+           cx="24"
+           cy="16.5"
+           r="6.5"
+           data-om-id="8b28685d:19"
+           id="circle55058"
+           style="fill:none;stroke:#a92a14;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           data-dc-tpl="15"
+           d="m 11.5,40 c 0,-7 5.6,-12.5 12.5,-12.5 6.9,0 12.5,5.5 12.5,12.5"
+           data-om-id="8b28685d:20"
+           id="path55060"
+           style="fill:none;stroke:#a92a14;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           data-dc-tpl="16"
+           d="m 24,38 c 0,0 -5.2,-3.6 -5.2,-6.9 0,-1.6 1.2,-2.7 2.6,-2.7 1,0 2,0.6 2.6,1.5 0.6,-0.9 1.6,-1.5 2.6,-1.5 1.4,0 2.6,1.1 2.6,2.7 0,3.3 -5.2,6.9 -5.2,6.9 z"
+           data-om-id="8b28685d:21"
+           id="path55062"
+           style="fill:none;stroke:#a92a14;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g77941">
+      <g
+         id="clinicien"
+         transform="matrix(2.5,0,0,2.5,383.83518,-120.11379)"
+         style="fill:none;stroke:#d87524;stroke-opacity:1;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:round">
+        <g
+           id="Clinicien"
+           transform="translate(22.983005,91.202843)">
+          <circle
+             data-dc-tpl="26"
+             cx="24"
+             cy="16.5"
+             r="6.5"
+             data-om-id="8b28685d:31"
+             id="circle54836"
+             style="fill:none;stroke:#d87524;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="27"
+             d="m 11.5,40 c 0,-7 5.6,-12.5 12.5,-12.5 6.9,0 12.5,5.5 12.5,12.5"
+             data-om-id="8b28685d:32"
+             id="path54838"
+             style="fill:none;stroke:#d87524;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <circle
+             data-dc-tpl="28"
+             cx="19.050314"
+             cy="24.710684"
+             r="1.1"
+             fill="#db813a"
+             stroke="none"
+             data-om-id="8b28685d:33"
+             id="circle54840"
+             style="fill:none;stroke:#d87524;stroke-width:1.32;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="30"
+             d="m 19,24.9 c -0.8,3.1 0.4,6.5 5,7.9"
+             data-om-id="8b28685d:35"
+             id="path54844"
+             style="fill:none;stroke:#d87524;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="31"
+             d="m 29,24.9 c 0.8,3.1 -0.4,6.5 -5,7.9"
+             data-om-id="8b28685d:36"
+             id="path54846"
+             style="fill:none;stroke:#d87524;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="32"
+             d="m 24,32.8 v 2.8"
+             data-om-id="8b28685d:37"
+             id="path54848"
+             style="fill:none;stroke:#d87524;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <circle
+             data-dc-tpl="33"
+             cx="24"
+             cy="38"
+             r="2.3"
+             data-om-id="8b28685d:38"
+             id="circle54850"
+             style="fill:none;stroke:#d87524;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <circle
+             data-dc-tpl="28"
+             cx="29.143738"
+             cy="24.710684"
+             r="1.1"
+             fill="#db813a"
+             stroke="none"
+             data-om-id="8b28685d:33"
+             id="circle70908"
+             style="fill:none;stroke:#d87524;stroke-width:1.32;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+      <text
+         font-size="12px"
+         x="501.05765"
+         y="226.31371"
+         text-anchor="middle"
+         fill="#085041"
+         id="text70920"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#d87524;fill-opacity:1"><tspan
+           sodipodi:role="line"
+           id="tspan70940"
+           x="501.05765"
+           y="226.31371">Clinicien·ne</tspan></text>
+    </g>
+    <g
+       id="g77975">
+      <g
+         id="chercheur"
+         transform="matrix(2.5,0,0,2.5,262.08379,287.00398)"
+         style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+        <circle
+           data-dc-tpl="43"
+           cx="24"
+           cy="19"
+           r="6"
+           data-om-id="8b28685d:48"
+           id="circle54754"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           data-dc-tpl="44"
+           d="m 12,41 c 0,-6.6 5.4,-12 12,-12 6.6,0 12,5.4 12,12"
+           data-om-id="8b28685d:49"
+           id="path54756"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           data-dc-tpl="45"
+           d="M 24,6 35,9.8 24,13.6 13,9.8 Z"
+           data-om-id="8b28685d:50"
+           id="path54758"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           data-dc-tpl="46"
+           d="M 34,10.3 V 15"
+           data-om-id="8b28685d:51"
+           id="path54760"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           data-dc-tpl="47"
+           cx="34"
+           cy="15.6"
+           r="1"
+           fill="#caa11c"
+           stroke="none"
+           data-om-id="8b28685d:52"
+           id="circle54762"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           data-dc-tpl="48"
+           cx="21"
+           cy="19.6"
+           r="2.4000001"
+           data-om-id="8b28685d:53"
+           id="circle54764"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <circle
+           data-dc-tpl="49"
+           cx="27"
+           cy="19.6"
+           r="2.4000001"
+           data-om-id="8b28685d:54"
+           id="circle54766"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           data-dc-tpl="50"
+           d="m 23.4,19.1 c 0.5,-0.5 0.7,-0.5 1.2,0"
+           data-om-id="8b28685d:55"
+           id="path54768"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           data-dc-tpl="51"
+           d="m 18.6,19.6 h -2"
+           data-om-id="8b28685d:56"
+           id="path54770"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           data-dc-tpl="52"
+           d="m 29.4,19.6 h 1.4"
+           data-om-id="8b28685d:57"
+           id="path54772"
+           style="fill:none;stroke:#d1a41a;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <text
+         font-size="12px"
+         x="321.46814"
+         y="408.08093"
+         text-anchor="middle"
+         fill="#085041"
+         id="text74739"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#d1a41a;fill-opacity:1"><tspan
+           sodipodi:role="line"
+           id="tspan74759"
+           x="321.46814"
+           y="408.08093">Chercheu·r·se</tspan></text>
+    </g>
+    <g
+       id="g80785">
+      <g
+         id="industriel"
+         transform="translate(-4.2591873,-453.11415)">
+        <g
+           id="usine"
+           transform="matrix(2.5,0,0,2.5,143.85076,551.47483)"
+           style="fill:none;stroke:#257321;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+          <path
+             data-dc-tpl="63"
+             d="M 8,41 V 25 l 11,5.5 V 25 l 11,5.5 V 25 l 11,5.5 V 41 Z"
+             data-om-id="8b28685d:68"
+             id="path54914"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="64"
+             d="m 15,41 v -6 h 6 v 6"
+             data-om-id="8b28685d:69"
+             id="path54916"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="65"
+             d="M 27,34 H 37"
+             data-om-id="8b28685d:70"
+             id="path54918"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="66"
+             d="M 27,37.5 H 37"
+             data-om-id="8b28685d:71"
+             id="path54920"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="67"
+             d="m 11,25 v -9 h 4 v 11"
+             data-om-id="8b28685d:72"
+             id="path54922"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <g
+           id="indus perso"
+           transform="matrix(2.5,0,0,2.5,145.10076,545.22483)"
+           style="fill:none;stroke:#257321;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+          <circle
+             data-dc-tpl="70"
+             cx="24"
+             cy="17.5"
+             r="6"
+             data-om-id="8b28685d:75"
+             id="circle54986"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="71"
+             d="m 11.5,40 c 0,-6.6 5.6,-12 12.5,-12 6.9,0 12.5,5.4 12.5,12"
+             data-om-id="8b28685d:76"
+             id="path54988"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="72"
+             d="M 13,11.2 H 35"
+             data-om-id="8b28685d:77"
+             id="path54990"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="73"
+             d="m 16.8,11.2 c 0,-5.3 3,-7.4 7.2,-7.4 4.2,0 7.2,2.1 7.2,7.4"
+             data-om-id="8b28685d:78"
+             id="path54992"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             data-dc-tpl="74"
+             d="M 24,3.8 V 6.2"
+             data-om-id="8b28685d:79"
+             id="path54994"
+             style="fill:none;stroke:#257321;stroke-width:2.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+      </g>
+      <text
+         font-size="12px"
+         x="201.58939"
+         y="217.9147"
+         text-anchor="middle"
+         fill="#085041"
+         id="text77960"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#257321;fill-opacity:1"><tspan
+           sodipodi:role="line"
+           id="tspan77995">Industriel·le</tspan></text>
+    </g>
+  </g>
+</svg>

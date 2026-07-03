@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-dc-tpl="42" id="icon-chercheur" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="120" height="120" fill="none" stroke="#caa11c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" data-om-id="8b28685d:47">
+          <circle data-dc-tpl="43" cx="24" cy="19" r="6" data-om-id="8b28685d:48"></circle>
+          <path data-dc-tpl="44" d="M12 41 C12 34.4 17.4 29 24 29 C30.6 29 36 34.4 36 41" data-om-id="8b28685d:49"></path>
+          <path data-dc-tpl="45" d="M24 6 L35 9.8 L24 13.6 L13 9.8 Z" data-om-id="8b28685d:50"></path>
+          <path data-dc-tpl="46" d="M34 10.3 L34 15" data-om-id="8b28685d:51"></path>
+          <circle data-dc-tpl="47" cx="34" cy="15.6" r="1" fill="#caa11c" stroke="none" data-om-id="8b28685d:52"></circle>
+          <circle data-dc-tpl="48" cx="21" cy="19.6" r="2.4" data-om-id="8b28685d:53"></circle>
+          <circle data-dc-tpl="49" cx="27" cy="19.6" r="2.4" data-om-id="8b28685d:54"></circle>
+          <path data-dc-tpl="50" d="M23.4 19.1 C23.9 18.6 24.1 18.6 24.6 19.1" data-om-id="8b28685d:55"></path>
+          <path data-dc-tpl="51" d="M18.6 19.6 H16.6" data-om-id="8b28685d:56"></path>
+          <path data-dc-tpl="52" d="M29.4 19.6 H30.8" data-om-id="8b28685d:57"></path>
+        </svg>

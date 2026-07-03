@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg data-dc-tpl="13" id="icon-patient" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="120" height="120" fill="none" stroke="#d6483f" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" data-om-id="8b28685d:18">
+          <circle data-dc-tpl="14" cx="24" cy="16.5" r="6.5" data-om-id="8b28685d:19"></circle>
+          <path data-dc-tpl="15" d="M11.5 40 C11.5 33 17.1 27.5 24 27.5 C30.9 27.5 36.5 33 36.5 40" data-om-id="8b28685d:20"></path>
+          <path data-dc-tpl="16" d="M24 38 C24 38 18.8 34.4 18.8 31.1 C18.8 29.5 20 28.4 21.4 28.4 C22.4 28.4 23.4 29 24 29.9 C24.6 29 25.6 28.4 26.6 28.4 C28 28.4 29.2 29.5 29.2 31.1 C29.2 34.4 24 38 24 38 Z" data-om-id="8b28685d:21"></path>
+        </svg>

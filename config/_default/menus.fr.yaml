@@ -9,13 +9,13 @@ main:
     weight: 10
   - name: Publications
     url: /publication
-    weight: 11
-  - name: Experience
+    weight: 14
+  - name: Parcours
     url: experience/
-    weight: 20
+    weight: 16
   - name: Projets
     url: projects/
-    weight: 30
+    weight: 12
   - name: Cours
     url: courses/
-    weight: 40
+    weight: 18
