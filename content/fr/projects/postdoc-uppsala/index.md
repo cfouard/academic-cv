@@ -1,6 +1,6 @@
 ---
 title: "Des fondations mathématiques aux images médicales"
-summary: "Postdoctorat à l'Université d'Uppsala (2005–2006) : extension des distances de chamfrein aux grilles anisotropes et preuve formelle de leurs propriétés métriques, avec une application directe aux images médicales volumiques."
+summary: "Postdoctorat à l'Université d'Uppsala (2005–2006) : extension des distances de chanfrein aux grilles anisotropes et preuve formelle de leurs propriétés métriques, avec une application directe aux images médicales volumiques."
 date: 2006-08-01
 lastmod: 2006-08-01
 tags:
@@ -32,21 +32,21 @@ Ce dernier point mérite une illustration. L'inégalité triangulaire dit simple
 
 {{< figure src="triangle_inequality.svg" caption="Exemple 2D : d²E(p,q) = 9 > d²E(p,o) + d²E(o,q) = 7. Passer par o revient moins cher que d'aller directement — le chemin le plus court n'est pas la ligne droite !" >}}
 
-La **distance de chamfrein** résout ce problème : c'est une façon efficace de calculer des distances dans une image numérique sans avoir à examiner tous les chemins possibles. On affecte à chaque direction de déplacement (voisin 4-connexe, 8-connexe, etc.) un poids local, et on propage ces poids par un simple balayage en deux passes de l'image. Le résultat est une distance discrète, entière, rapide à calculer — et qui, sous certaines conditions sur les poids, vérifie toutes les propriétés d'une norme.
+La **distance de chanfrein** résout ce problème : c'est une façon efficace de calculer des distances dans une image numérique sans avoir à examiner tous les chemins possibles. On affecte à chaque direction de déplacement (voisin 4-connexe, 8-connexe, etc.) un poids local, et on propage ces poids par un simple balayage en deux passes de l'image. Le résultat est une distance discrète, entière, rapide à calculer — et qui, sous certaines conditions sur les poids, vérifie toutes les propriétés d'une norme.
 
-{{< figure src="chamfer_forward.png" caption="Algorithme de chamfrein — 1er passage : propagation de gauche à droite, de haut en bas" >}}
+{{< figure src="chamfer_forward.png" caption="Algorithme de chanfrein — 1er passage : propagation de gauche à droite, de haut en bas" >}}
 
-{{< figure src="chamfer_backward.png" caption="Algorithme de chamfrein — 2e passage : propagation de droite à gauche, de bas en haut" >}}
+{{< figure src="chamfer_backward.png" caption="Algorithme de chanfrein — 2e passage : propagation de droite à gauche, de bas en haut" >}}
 
 ---
 
 ## Le problème spécifique : les images médicales sont anisotropes
 
-Sur une grille **isotrope** (pixels carrés, voxels cubiques), les distances de chamfrein sont bien maîtrisées. Mais les images médicales sont rarement isotropes.
+Sur une grille **isotrope** (pixels carrés, voxels cubiques), les distances de chanfrein sont bien maîtrisées. Mais les images médicales sont rarement isotropes.
 
 {{< figure src="anisotropic_medical.png" caption="Image médicale anisotrope : les voxels sont allongés dans la direction axiale" >}}
 
-Un scanner CT typique a une résolution de 0,5 mm × 0,5 mm dans le plan axial, mais de 2 à 5 mm entre les coupes. Si l'on applique naïvement un algorithme de chamfrein calculé pour une grille isotrope à une telle image, les distances obtenues ne vérifient plus l'inégalité triangulaire — et peuvent mener à des absurdités géométriques où le chemin direct entre deux points semble plus long que de passer par un détour.
+Un scanner CT typique a une résolution de 0,5 mm × 0,5 mm dans le plan axial, mais de 2 à 5 mm entre les coupes. Si l'on applique naïvement un algorithme de chanfrein calculé pour une grille isotrope à une telle image, les distances obtenues ne vérifient plus l'inégalité triangulaire — et peuvent mener à des absurdités géométriques où le chemin direct entre deux points semble plus long que de passer par un détour.
 
 **La solution classique** est de rééchantillonner l'image pour la rendre isotrope avant de calculer les distances. Mais ce rééchantillonnage introduit des artefacts et alourdit considérablement le traitement.
 
@@ -54,9 +54,9 @@ Un scanner CT typique a une résolution de 0,5 mm × 0,5 mm dans le plan axial, 
 
 ## Ma contribution : une théorie unifiée pour les grilles quelconques
 
-Mon travail de postdoctorat a consisté à développer un cadre mathématique général permettant de calculer des distances de chamfrein directement sur n'importe quelle grille — en particulier les grilles anisotropes des images médicales — avec la garantie formelle que la distance obtenue est bien une **norme** au sens mathématique (positive, symétrique, inégalité triangulaire, homogénéité).
+Mon travail de postdoctorat a consisté à développer un cadre mathématique général permettant de calculer des distances de chanfrein directement sur n'importe quelle grille — en particulier les grilles anisotropes des images médicales — avec la garantie formelle que la distance obtenue est bien une **norme** au sens mathématique (positive, symétrique, inégalité triangulaire, homogénéité).
 
-La clé du résultat est la notion de **module** : en généralisant le cadre des grilles discrètes des entiers (Z²) à celui des modules sur les anneaux commutatifs, j'ai pu démontrer les conditions nécessaires et suffisantes sur les poids du masque de chamfrein pour garantir la propriété de norme — indépendamment de la géométrie de la grille.
+La clé du résultat est la notion de **module** : en généralisant le cadre des grilles discrètes des entiers (Z²) à celui des modules sur les anneaux commutatifs, j'ai pu démontrer les conditions nécessaires et suffisantes sur les poids du masque de chanfrein pour garantir la propriété de norme — indépendamment de la géométrie de la grille.
 
 Ce travail a abouti à trois contributions majeures :
 

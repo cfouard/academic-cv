@@ -1,21 +1,27 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+# Menus (English)
+#   Order is given by `weight`.
 
 main:
-  - name: Bio
+  - name: Home
     url: /
     weight: 10
-  - name: Publications
-    url: /publication
-    weight: 14
-  - name: Journey
-    url: experience/
-    weight: 16
+  - name: Services
+    url: services/
+    weight: 11
   - name: Projects
     url: projects/
     weight: 12
-  - name: Courses
+  - name: Journey
+    url: experience/
+    weight: 14
+  - name: Publications
+    url: publication/
+    weight: 16
+  - name: Teaching
     url: courses/
     weight: 18
+
+footer:
+  - name: Legal notice & privacy
+    url: legal-notice/
+    weight: 10

@@ -1,16 +1,23 @@
 # Languages
-#   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
+# Français par défaut (marché 2027 en France). Les deux langues sont en sous-dossier
+# (/fr/ et /en/) : la racine du site redirige vers /fr/.
 
-# Default language
-en:
-  languageCode: en-us
-  languageName: English
-  weight: 1
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  contentDir: content/en
 fr:
   languageCode: fr
   languageName: Français
-  weight: 2
+  weight: 1
   contentDir: content/fr
+  params:
+    hugoblox:
+      identity:
+        description: "Céline Fouard, consultante indépendante : dérisquage de projets de logiciel médical (diagnostic de projet, pilotage R&D à temps partagé). 20 ans de prototypage, du besoin clinique aux essais précliniques. Grenoble, Paris, Lyon."
+en:
+  languageCode: en-us
+  languageName: English
+  weight: 2
+  contentDir: content/en
+  params:
+    hugoblox:
+      identity:
+        description: "Céline Fouard, independent consultant: de-risking medical software projects (project assessment, part-time R&D leadership). 20 years of prototyping, from clinical needs to preclinical trials. Grenoble, Paris, Lyon (France)."

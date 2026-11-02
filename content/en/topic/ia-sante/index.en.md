@@ -12,15 +12,15 @@ sections:
 
         <div style="display:flex; gap:1rem; margin:1.5rem 0 2rem; align-items:flex-start;">
           <figure style="flex:1; margin:0;">
-            <img src="/projects/these-samarakoon/featured.png" alt="Automatic kidney localisation in CT volumes using bounding boxes" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:1/1;">
+            <img src="/en/projects/these-samarakoon/featured.png" alt="Automatic kidney localisation in CT volumes using bounding boxes" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:1/1;">
             <figcaption style="font-size:0.78rem; color:var(--color-text-secondary,#777); margin-top:0.5rem; text-align:center;">Samarakoon thesis — Random Regression Forests</figcaption>
           </figure>
           <figure style="flex:1; margin:0;">
-            <img src="/projects/remi/featured.png" alt="The case-based reasoning cycle applied to surgical decision-making" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:1/1;">
+            <img src="/en/projects/remi/featured.png" alt="The case-based reasoning cycle applied to surgical decision-making" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:1/1;">
             <figcaption style="font-size:0.78rem; color:var(--color-text-secondary,#777); margin-top:0.5rem; text-align:center;">REMI — Case-based reasoning</figcaption>
           </figure>
           <figure style="flex:1; margin:0;">
-            <img src="/projects/cardiologie/featured.png" alt="Image-guided interventional cardiology in the cath lab" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:1/1;">
+            <img src="/en/projects/cardiologie/featured.png" alt="Image-guided interventional cardiology in the cath lab" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:1/1;">
             <figcaption style="font-size:0.78rem; color:var(--color-text-secondary,#777); margin-top:0.5rem; text-align:center;">Cardiology — deep learning segmentation</figcaption>
           </figure>
         </div>

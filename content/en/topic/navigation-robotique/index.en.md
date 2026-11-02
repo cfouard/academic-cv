@@ -12,11 +12,11 @@ sections:
 
         <div style="display:flex; gap:1.5rem; margin:1.5rem 0 2rem; align-items:flex-start;">
           <figure style="flex:1; margin:0;">
-            <img src="/projects/lpr/featured.png" alt="The LPR β prototype placed on a healthy subject at the MRI tunnel entrance during preclinical trials" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:4/3;">
+            <img src="/en/projects/lpr/featured.png" alt="The LPR β prototype placed on a healthy subject at the MRI tunnel entrance during preclinical trials" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:4/3;">
             <figcaption style="font-size:0.8rem; color:var(--color-text-secondary,#777); margin-top:0.5rem; text-align:center;">LPR — needle-puncture robot for MRI · Prof. Cinquin, Prof. Bricault</figcaption>
           </figure>
           <figure style="flex:1; margin:0;">
-            <img src="/projects/cardiologie/featured.png" alt="Image-guided interventional cardiology in the cath lab" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:4/3;">
+            <img src="/en/projects/cardiologie/featured.png" alt="Image-guided interventional cardiology in the cath lab" style="width:100%; border-radius:8px; object-fit:cover; aspect-ratio:4/3;">
             <figcaption style="font-size:0.8rem; color:var(--color-text-secondary,#777); margin-top:0.5rem; text-align:center;">Interventional cardiology — intraoperative guidance · Prof. Barone-Rochette</figcaption>
           </figure>
         </div>

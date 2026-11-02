@@ -1,21 +1,30 @@
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+# Menus (français)
+#   L'ordre est donné par `weight`.
 
 main:
-  - name: Bio
-    url: fr/
+  - name: Accueil
+    url: /
     weight: 10
-  - name: Publications
-    url: /publication
-    weight: 14
-  - name: Parcours
-    url: experience/
-    weight: 16
+  - name: Offre
+    url: offre/
+    weight: 11
   - name: Projets
     url: projects/
     weight: 12
-  - name: Cours
+  - name: Parcours
+    url: experience/
+    weight: 14
+  - name: Publications
+    url: publication/
+    weight: 16
+  - name: Enseignement
     url: courses/
     weight: 18
+
+footer:
+  - name: Mentions légales
+    url: mentions-legales/
+    weight: 10
+  - name: Confidentialité
+    url: confidentialite/
+    weight: 20

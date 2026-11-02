@@ -11,10 +11,39 @@
 {{- $author := cond $isFr site.Data.fr.authors.celine site.Data.authors.celine -}}
 {{- $avatarPath := "media/authors/celine.jpg" -}}
 
-{{- $headingBio    := cond $isFr "Mon parcours"           "My background" -}}
-{{- $pitch         := cond $isFr "20 ans à transformer des idées de recherche en prototypes cliniques. Aujourd'hui, je mets cette expertise au service des entreprises du dispositif médical." "20 years turning research ideas into clinical prototypes. I now bring this expertise to medical device companies." -}}
-{{- $headingThemes := cond $isFr "Domaines de compétence" "Areas of expertise" -}}
+{{- $mail := "mailto:contact@celine-fouard.fr" -}}
+{{- $offerURL := cond $isFr ("offre/" | relLangURL) ("services/" | relLangURL) -}}
+{{- $headline := cond $isFr "Dérisquer vos projets de logiciel médical, avant d'investir dans le développement" "De-risk your medical software projects before investing in development" -}}
+{{- $pitch := cond $isFr "J'aide les entreprises MedTech à faire traverser la « vallée de la mort » à leurs innovations logicielles : décider sur des preuves, prototyper juste ce qu'il faut, et documenter pour la suite." "I help MedTech companies take their software innovations across the “valley of death”: decide on evidence, prototype just what is needed, and document for what comes next." -}}
+{{- $availability := cond $isFr "Disponible à partir de janvier 2027 · Grenoble, Paris, Lyon" "Available from January 2027 · Grenoble, Paris, Lyon (France)" -}}
+{{- $headingOffer := cond $isFr "Deux façons de travailler ensemble" "Two ways to work together" -}}
+{{- $o1t := cond $isFr "Diagnostic de projet" "Project assessment" -}}
+{{- $o1d := cond $isFr "Besoin clinique vérifié auprès de plusieurs cliniciens, faisabilité technique, classe réglementaire estimée, estimation du prototype : une évaluation argumentée pour décider d'investir, avant tout recrutement ou contrat de développement." "Clinical need checked with several clinicians, technical feasibility, estimated regulatory class, prototype estimate: a reasoned assessment to decide whether to invest, before any hiring or development contract." -}}
+{{- $o2t := cond $isFr "Pilotage R&D à temps partagé" "Part-time R&D leadership" -}}
+{{- $o2d := cond $isFr "Environ un jour par semaine pour cadrer et piloter un nouveau logiciel médical avec votre équipe : choix techniques, lien avec les cliniciens, méthode transmise à l'équipe en place." "About one day a week to frame and steer a new medical software product with your team: technical choices, link with clinicians, method handed over to your team." -}}
+{{- $headingProof := cond $isFr "Pourquoi me faire confiance" "Why work with me" -}}
+{{- $p1 := cond $isFr "20 ans de conception et de prototypage de logiciels médicaux, de l'élicitation des besoins cliniques aux essais précliniques." "20 years designing and prototyping medical software, from clinical requirements elicitation to preclinical trials." -}}
+{{- $p2 := cond $isFr "un robot de ponction mené jusqu'aux essais sur volontaires sains (autorisation ANSM), avec une équipe de 10 personnes entre recherche, clinique et industrie." "a needle-insertion robot taken to trials on healthy volunteers (ANSM authorisation), with a team of 10 across research, clinic and industry." -}}
+{{- $p3 := cond $isFr "plateforme open source de prototypage d'applications médicales, co-fondée et utilisée de la recherche au transfert." "open-source platform for medical application prototyping, co-founded and used from research to technology transfer." -}}
+{{- $lprURL := "projects/lpr/" | relLangURL -}}
+{{- $camitkURL := "projects/camitk/" | relLangURL -}}
+{{- $ctaOffer := cond $isFr "Découvrir l'offre" "See the services" -}}
+{{- $ctaMail := cond $isFr "Me contacter" "Contact me" -}}
+{{- $headingThemes := cond $isFr "20 ans de projets : domaines de compétence" "20 years of projects: areas of expertise" -}}
 {{- $clickHint     := cond $isFr "Cliquez sur un thème pour découvrir les projets associés." "Click on a theme to explore the associated projects." -}}
+
+<style>
+  .bw-card { border: 1px solid rgba(127,127,127,.25); border-radius: 12px; padding: 1rem 1.1rem; }
+  .bw-card h3 { font-size: 1.05rem; font-weight: 700; margin: 0 0 .4rem 0; }
+  .bw-card p { font-size: .95rem; line-height: 1.55; margin: 0; }
+  .bw-btn { display:inline-block; padding:.6rem 1.1rem; border-radius:8px; font-weight:600; text-decoration:none; }
+  .bw-btn-primary { background: var(--color-primary-600, #c0654f); color:#fff !important; }
+  .bw-btn-secondary { border:1px solid currentColor; }
+  .bw-badge { display:inline-block; font-size:.85rem; font-weight:600; padding:.25rem .7rem; border-radius:999px; background: rgba(22,163,74,.12); color:#15803d; }
+  .bw-h2 { font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; margin: 2rem 0 .75rem 0; opacity:.7; }
+  .bw-proofs li { margin-bottom: .45rem; line-height: 1.55; font-size: 1rem; }
+  .bw-btn { font-size: 1rem; }
+</style>
 
 <div class="biography-wheel-root grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-start" style="padding: 2rem 0;">
 
@@ -51,11 +80,30 @@
   </div>
 
   <div class="md:col-span-8">
-    <h2 style="font-size: 1rem; font-weight: 600; color: var(--color-text-secondary, #888); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.75rem;">{{ $headingBio }}</h2>
-    <p style="font-size: 1.05rem; line-height: 1.65; margin-bottom: 2rem;">{{ $pitch }}</p>
+    <h2 style="font-size: 1.7rem; font-weight: 700; line-height: 1.25; margin-bottom: 0.9rem;">{{ $headline }}</h2>
+    <p style="font-size: 1.08rem; line-height: 1.65; margin-bottom: 1rem;">{{ $pitch }}</p>
+    <p style="margin-bottom: 1.5rem;"><span class="bw-badge">{{ $availability }}</span></p>
 
-    <h2 style="font-size: 1rem; font-weight: 600; color: var(--color-text-secondary, #888); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.75rem;">{{ $headingThemes }}</h2>
-    <p style="font-size: 0.92rem; color: var(--color-text-secondary, #777); margin-bottom: 1rem;">{{ $clickHint }}</p>
+    <h2 class="bw-h2">{{ $headingOffer }}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bw-card"><h3>{{ $o1t }}</h3><p>{{ $o1d }}</p></div>
+      <div class="bw-card"><h3>{{ $o2t }}</h3><p>{{ $o2d }}</p></div>
+    </div>
+
+    <h2 class="bw-h2">{{ $headingProof }}</h2>
+    <ul class="bw-proofs" style="list-style: disc; padding-left: 1.2rem;">
+      <li>{{ $p1 }}</li>
+      <li><a href="{{ $lprURL }}"><strong>LPR</strong></a>{{ cond $isFr " : " ": " }}{{ $p2 }}</li>
+      <li><a href="{{ $camitkURL }}"><strong>CamiTK</strong></a>{{ cond $isFr " : " ": " }}{{ $p3 }}</li>
+    </ul>
+
+    <div style="display:flex; flex-wrap:wrap; gap:.8rem; margin: 1.5rem 0 1rem 0;">
+      <a class="bw-btn bw-btn-primary" href="{{ $offerURL }}">{{ $ctaOffer }}</a>
+      <a class="bw-btn bw-btn-secondary" href="{{ $mail }}">{{ $ctaMail }} · contact@celine-fouard.fr</a>
+    </div>
+
+    <h2 class="bw-h2">{{ $headingThemes }}</h2>
+    <p style="font-size: 0.92rem; opacity:.75; margin-bottom: 1rem;">{{ $clickHint }}</p>
 
     {{ partial "theme-wheel.html" . }}
   </div>
